@@ -2,7 +2,7 @@
 
 > **Tracking every pull request by Code Orange community members to Bitcoin open-source projects.**
 >
-> Last updated: April 2026 | Next update: May 2026
+> Last updated: May 2026
 
 ---
 
@@ -10,13 +10,13 @@
 
 | Metric | Count |
 |--------|-------|
-| **Total PRs Opened** | **15+** |
-| **PRs Merged** | **9+** |
+| **Total PRs Opened** | **18+** |
+| **PRs Merged** | **12+** |
 | **PRs Approved (awaiting merge)** | **2** |
-| **PRs Under Review** | **4+** |
-| **Distinct Projects Contributed To** | **12+** |
-| **Active Contributors** | **7** |
-| **Emerging Contributors (first PR imminent)** | **7** |
+| **PRs Under Review** | **5+** |
+| **Distinct Projects Contributed To** | **20+** |
+| **Active Contributors** | **12** |
+| **Emerging Contributors (first PR imminent)** | **12** |
 
 ---
 
@@ -35,7 +35,11 @@
 | 9 | Psychemist | [@psychemist](https://github.com/psychemist) | BIP375 Go | — | BIP375 Go implementation | 2025 | Merged |
 | 10 | Diegodev | [@0xlaga](https://github.com/0xlaga) | [gossip-observer](https://github.com/0xlaga) | — | Gossip observer contributions | 2025 | Merged |
 | 11 | Bunny Rolling Dice | [@rollingdice](https://github.com/rollingdice) | [BlueWallet](https://github.com/BlueWallet/BlueWallet) | — | Bahasa Indonesia translation | 2025 | Merged |
-| 12 | Muhammad | [@muhahahmad68](https://github.com/muhahahmad68) | [SurrealDB](https://github.com/surrealdb/surrealdb) | — | OSS contribution (non-Bitcoin, demonstrating capability) | 2025 | Merged |
+| 12 | Muhammad | [@muhahahmad68](https://github.com/muhahahmad68) | [SurrealDB](https://github.com/surrealdb/surrealdb) | — | OSS contribution in Rust (non-Bitcoin, demonstrating capability) | 2025 | Merged |
+| 13 | Gradale | *(handle on request)* | [rust-bitcoin](https://github.com/rust-bitcoin/rust-bitcoin) | — | rust-bitcoin contribution | 2026 | Merged |
+| 14 | Dayvvo | [@dayvvo](https://github.com/dayvvo) | [getalby/js-sdk](https://github.com/getalby/js-sdk) | — | Alby JS SDK contribution | 2026 | Merged |
+| 15 | Dayvvo | [@dayvvo](https://github.com/dayvvo) | [getalby/bitcoin-connect](https://github.com/getalby/bitcoin-connect) | — | Alby Bitcoin Connect contribution | 2026 | Merged |
+| 16 | Dayvvo | [@dayvvo](https://github.com/dayvvo) | [cashu-ts](https://github.com/cashubtc/cashu-ts) | — | Cashu TypeScript library contribution | 2026 | Merged |
 
 ---
 
@@ -66,9 +70,14 @@
 | Yongki | [@ywiyogo](https://github.com/ywiyogo) | Bitcoin Core (C++) | Q2 2026 |
 | Ilie | [@Ilie27](https://github.com/Ilie27) | Bitaxe / Stratum V2 | Q2 2026 |
 | Elijahhh | [@ElijahMwambazi](https://github.com/ElijahMwambazi) | Lightning Network (Rust) | Q2 2026 |
-| Gradale | *(handle on request)* | rust-bitcoin / core-lightning | Q2 2026 |
-| Muhammad | [@muhahahmad68](https://github.com/muhahahmad68) | Floresta / BDK | Q2 2026 |
+| Muhammad | [@muhahahmad68](https://github.com/muhahahmad68) | Floresta / BDK / SeedSigner | Q2 2026 |
+| Kirito | [@yomanthunder](https://github.com/yomanthunder) | coinswap / Stratum V2 | Q2 2026 |
+| Martin Barilik | [@martinbarilik](https://github.com/martinbarilik) | StartOs / Robosats | Q2 2026 |
+| Dailycisea | [@fqhhusain](https://github.com/fqhhusain) | Bitcoin FOSS (TBD) | Q2 2026 |
+| Dashingtimmy | [@awzbgr](https://github.com/awzbgr) | Fedi ecosystem / BICustody | Q2 2026 |
+| Mwihoti | [@mwihoti](https://github.com/mwihoti) | rust-bitcoin / stackmate | Q2 2026 |
 | Mr Miyagi | *(in progress)* | Rust Bitcoin OSS | Q3 2026 |
+| Gradale | *(handle on request)* | rust-bitcoin / core-lightning | Q2 2026 |
 
 ---
 
@@ -77,23 +86,39 @@
 | Category | Project | Contributors |
 |----------|---------|-------------|
 | **Protocol & Privacy** | Bitcoin Core (C++) | Peter |
-| | rust-bitcoin | Vaan, Peter, Mwihoti |
+| | rust-bitcoin | Vaan, Peter, Mwihoti, Gradale |
 | | rust-payjoin (BIP77) | Arowolo |
 | | Silent Payments (BIP352) | Chaitika |
+| | coinswap | Kirito |
 | **Wallet & Infrastructure** | BDK / bdk-cli | Vaan, Psychemist, Captain Levi |
 | | LDK (Lightning Dev Kit) | Psychemist |
 | | BIP375 Go | Psychemist |
+| | Kernel-Node | Peter |
 | **Network & Monitoring** | peer-observer | Razor |
 | | gossip-observer | Diegodev |
+| | Stratum V2 | Kirito, Ilie |
+| **Lightning & eCash** | Alby (js-sdk, bitcoin-connect) | Dayvvo |
+| | cashu-ts | Dayvvo |
+| | Fedi ecosystem (BICustody) | Dashingtimmy |
 | **Ecosystem** | BlueWallet (translation) | Bunny Rolling Dice |
 | | bitcoin-visuals | Diegodev |
 | | BINST (Taproot+PSBT+ZK) | Diegodev |
+| | StartOs / Robosats | Martin Barilik |
+| | stackmate | Mwihoti |
 
-**Total distinct Bitcoin projects: 12+**
+**Total distinct Bitcoin projects: 20+**
 
 ---
 
 ## Monthly Tracking Log
+
+### May 2026
+- Added 4 new merged PRs: Gradale (rust-bitcoin), Dayvvo (Alby js-sdk, Alby bitcoin-connect, cashu-ts)
+- 12 active contributors now tracked (up from 7)
+- 12 emerging contributors with first PRs expected Q2-Q3 2026 (up from 7)
+- New projects added: coinswap, Kernel-Node, Stratum V2, Alby, cashu-ts, Fedi/BICustody, StartOs, Robosats, stackmate
+- Total distinct projects now 20+ (up from 12+)
+- Updated contributor targets: Muhammad → Floresta/BDK/SeedSigner, Mwihoti building stackmate
 
 ### April 2026
 - Dashboard created with baseline data from all cohort graduates
