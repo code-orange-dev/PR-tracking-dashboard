@@ -2,7 +2,7 @@
 
 > **Tracking every pull request by Code Orange community members to Bitcoin open-source projects.**
 >
-> Last updated: June 2, 2026
+> Last updated: June 13, 2026
 
 ---
 
@@ -10,14 +10,31 @@
 
 | Metric | Count |
 |--------|-------|
-| **Total PRs Opened** | **100+** |
-| **PRs Merged** | **60+** |
-| **PRs Open / Under Review** | **18** |
-| **Distinct Projects Contributed To** | **28+** |
-| **Active Contributors** | **14** |
-| **Emerging Contributors (first PR imminent)** | **9** |
+| **Total PRs Opened** | **110+** |
+| **PRs Merged** | **70+** |
+| **PRs Open / Under Review** | **23** |
+| **Distinct Projects Contributed To** | **30+** |
+| **Active Contributors** | **16** |
+| **Emerging Contributors (first PR imminent)** | **7** |
 
-> **Note (June update):** The Silent Payments wallet formerly at `Bitshala-Incubator/silent-pay-wallet` is now developed at [`CypherCommons/shroud`](https://github.com/CypherCommons/shroud); recent Chaitika PRs use the new path. Mwihoti landed a first merged Bitcoin PR (rust-payjoin #1589) and is now an active contributor.
+> **Note (June 13 update):** Full re-scan of every community member against live GitHub. Three contributors promoted emerging → active: **Muhammad** (3 merged BDK security/audit PRs + open Bitcoin Core #35320), **Captain Levi** (merged ddust #46), and **Alex Xie** (merged Lightning/ecash PRs to OpenTollGate). The Silent Payments wallet formerly at `Bitshala-Incubator/silent-pay-wallet` is now developed at [`CypherCommons/shroud`](https://github.com/CypherCommons/shroud).
+
+### Quick view — contributors by merged PRs
+
+| Contributor | Merged (2026) | Primary focus |
+|---|---|---|
+| Chaitika | 15+ | Silent Payments (BIP352) wallet |
+| Vaan | 11+ | Payjoin, BDK, rust-bitcoin |
+| Peter | 9+ | Bitcoin Core, kernel-node SP scanning |
+| Psychemist | 6 | Taproot, Script, LDK |
+| Muhammad | 4 | BDK security/audit, Bitcoin Core |
+| Gradale | 4 | rust-bitcoin, corepc, Lightning |
+| Razor | 6 | peer-observer, P2P/BIP324 |
+| Alex Xie | 3 | OpenTollGate (Lightning/ecash) |
+| Arowolo | 2 | Payjoin (BIP77) |
+| Captain Levi | 1 | ddust (BIP451 dust analysis) |
+| Mwihoti | 1 | Payjoin (first merge) |
+| Diegodev, Dayvvo, Bunny | — | LN fingerprinting, Alby/Cashu, translation |
 
 ---
 
@@ -88,6 +105,14 @@
 | 61 | Chaitika | [@chaitika](https://github.com/chaitika) | [shroud](https://github.com/CypherCommons/shroud) | [#101](https://github.com/CypherCommons/shroud/pull/101) | DEL: quick-actions toggle and Android home-screen widgets | May 2026 | Merged |
 | 62 | Chaitika | [@chaitika](https://github.com/chaitika) | [shroud](https://github.com/CypherCommons/shroud) | [#76](https://github.com/CypherCommons/shroud/pull/76) | FIX: persist birth height to disk | May 2026 | Merged |
 | 63 | Mwihoti | [@mwihoti](https://github.com/mwihoti) | [rust-payjoin](https://github.com/payjoin/rust-payjoin) | [#1589](https://github.com/payjoin/rust-payjoin/pull/1589) | chore: add lcov.info to root .gitignore — **first merged Bitcoin PR** | May 2026 | Merged |
+| 64 | Muhammad | [@muhahahmad68](https://github.com/muhahahmad68) | [bdk_wallet](https://github.com/bitcoindevkit/bdk_wallet) | [#471](https://github.com/bitcoindevkit/bdk_wallet/pull/471) | fix(audit): non-witness-utxo txid validation for PSBT (security) | May 2026 | Merged |
+| 65 | Muhammad | [@muhahahmad68](https://github.com/muhahahmad68) | [bdk_wallet](https://github.com/bitcoindevkit/bdk_wallet) | [#487](https://github.com/bitcoindevkit/bdk_wallet/pull/487) | fix(types): avoid reachable panics in Utxo::txout for Foreign variant | May 2026 | Merged |
+| 66 | Muhammad | [@muhahahmad68](https://github.com/muhahahmad68) | [bdk_wallet](https://github.com/bitcoindevkit/bdk_wallet) | [#476](https://github.com/bitcoindevkit/bdk_wallet/pull/476) | fix(signer): respect allow_all_sighashes in SignerWrapper::sign_input | May 2026 | Merged |
+| 67 | Muhammad | [@muhahahmad68](https://github.com/muhahahmad68) | [cove](https://github.com/bitcoinppl/cove) | [#728](https://github.com/bitcoinppl/cove/pull/728) | chore(deps): replace cbor4ii with minicbor-serde in redb Cbor wrapper | May 2026 | Merged |
+| 68 | Captain Levi | [@SIDHARTH20K4](https://github.com/SIDHARTH20K4) | [ddust](https://github.com/bip451/ddust) | [#46](https://github.com/bip451/ddust/pull/46) | fix: is_ddust_tx sighash check for P2WSH multisig inputs (BIP451) | May 2026 | Merged |
+| 69 | Alex Xie | [@alexxie16](https://github.com/alexxie16) | [tollgate-module-basic-go](https://github.com/OpenTollGate/tollgate-module-basic-go) | [#107](https://github.com/OpenTollGate/tollgate-module-basic-go/pull/107) | feat: Lightning checkout + balance view (Lightning/ecash) | Apr 2026 | Merged |
+| 70 | Alex Xie | [@alexxie16](https://github.com/alexxie16) | [tollgate-module-basic-go](https://github.com/OpenTollGate/tollgate-module-basic-go) | [#105](https://github.com/OpenTollGate/tollgate-module-basic-go/pull/105) | feat(packaging): local OpenWrt SDK source-build helper | Apr 2026 | Merged |
+| 71 | Alex Xie | [@alexxie16](https://github.com/alexxie16) | [tollgate-captive-portal-site](https://github.com/OpenTollGate/tollgate-captive-portal-site) | [#9](https://github.com/OpenTollGate/tollgate-captive-portal-site/pull/9) | Add Lightning support UI (captive portal) | Apr 2026 | Merged |
 
 ---
 
@@ -113,6 +138,11 @@
 | 16 | Chaitika | [@chaitika](https://github.com/chaitika) | [shroud](https://github.com/CypherCommons/shroud) | [#108](https://github.com/CypherCommons/shroud/pull/108) | Unit test cleanup | Open |
 | 17 | Chaitika | [@chaitika](https://github.com/chaitika) | [shroud](https://github.com/CypherCommons/shroud) | [#109](https://github.com/CypherCommons/shroud/pull/109) | Fix BuildReleaseApk workflow | Open |
 | 18 | Mwihoti | [@mwihoti](https://github.com/mwihoti) | [saving-satoshi-script](https://github.com/saving-satoshi/saving-satoshi-script) | [#20](https://github.com/saving-satoshi/saving-satoshi-script/pull/20) | Migrate ScratchDnD from react-beautiful-dnd to dnd-kit | Open |
+| 19 | Muhammad | [@muhahahmad68](https://github.com/muhahahmad68) | [Bitcoin Core](https://github.com/bitcoin/bitcoin) | [#35320](https://github.com/bitcoin/bitcoin/pull/35320) | key: validate BIP32 seed length in CExtKey::SetSeed | Open |
+| 20 | Captain Levi | [@SIDHARTH20K4](https://github.com/SIDHARTH20K4) | [ddust](https://github.com/bip451/ddust) | [#49](https://github.com/bip451/ddust/pull/49) | test: P2SH-P2WSH and P2SH 2of3 multisig integration tests | Open |
+| 21 | Captain Levi | [@SIDHARTH20K4](https://github.com/SIDHARTH20K4) | [Ride-The-Lightning](https://github.com/Ride-The-Lightning/RTL) | [#1609](https://github.com/Ride-The-Lightning/RTL/pull/1609) | a11y: add mat-labels and fix keyboard nav | Open |
+| 22 | Alex Xie | [@alexxie16](https://github.com/alexxie16) | [tollgate-module-basic-go](https://github.com/OpenTollGate/tollgate-module-basic-go) | [#106](https://github.com/OpenTollGate/tollgate-module-basic-go/pull/106) | fix: evict expired timed sessions and start scan loop | Open |
+| 23 | Diegodev | [@0xlaga](https://github.com/0xlaga) | [gossip_observer](https://github.com/jharveyb/gossip_observer) | [#12](https://github.com/jharveyb/gossip_observer/pull/12) | impl_fingerprint — Lightning node implementation fingerprinting | Open |
 
 ---
 
@@ -142,15 +172,13 @@ These PRs were submitted but closed without merge — still valuable learning an
 
 | Developer | GitHub | Target Project | Expected Timeline |
 |-----------|--------|---------------|-------------------|
-| Captain Levi | [@SIDHARTH20K4](https://github.com/SIDHARTH20K4) | BDK | Q2 2026 |
-| Yongki | [@ywiyogo](https://github.com/ywiyogo) | Bitcoin Core (C++) | Q2 2026 |
-| Ilie | [@Ilie27](https://github.com/Ilie27) | Bitaxe / Stratum V2 | Q2 2026 |
-| Elijahhh | [@ElijahMwambazi](https://github.com/ElijahMwambazi) | Lightning Network (Rust) | Q2 2026 |
-| Muhammad | [@muhahahmad68](https://github.com/muhahahmad68) | Floresta / BDK / SeedSigner | Q2 2026 |
-| Kirito | [@yomanthunder](https://github.com/yomanthunder) | coinswap / Stratum V2 | Q2 2026 |
-| Martin Barilik | [@martinbarilik](https://github.com/martinbarilik) | StartOs / Robosats | Q2 2026 |
-| Dailycisea | [@fqhhusain](https://github.com/fqhhusain) | Bitcoin FOSS (TBD) | Q2 2026 |
-| Dashingtimmy | [@awzbgr](https://github.com/awzbgr) | Fedi ecosystem / BICustody | Q2 2026 |
+| Yongki | [@ywiyogo](https://github.com/ywiyogo) | Bitcoin Core (C++) | Q3 2026 |
+| Ilie | [@Ilie27](https://github.com/Ilie27) | Bitaxe / Stratum V2 | Q3 2026 |
+| Elijahhh | [@ElijahMwambazi](https://github.com/ElijahMwambazi) | Lightning Network (Rust) | Q3 2026 |
+| Kirito | [@yomanthunder](https://github.com/yomanthunder) | coinswap / Stratum V2 | Q3 2026 |
+| Shivam Gupta | [@shiivamgupta](https://github.com/shiivamgupta) | Bitcoin Core (C++) / Bitaxe | Q3 2026 |
+| Martin Barilik | [@martinbarilik](https://github.com/martinbarilik) | StartOs / Robosats | Q3 2026 |
+| Dailycisea | [@fqhhusain](https://github.com/fqhhusain) | Bitcoin FOSS (TBD) | Q3 2026 |
 
 ---
 
@@ -165,8 +193,10 @@ These PRs were submitted but closed without merge — still valuable learning an
 | | Silent Payments (BIP352) | Chaitika, Peter (kernel-node SP integration) |
 | | shroud (SP wallet, formerly silent-pay-wallet) | Chaitika |
 | | coinswap | Kirito |
+| | ddust (BIP451 dust analysis) | Captain Levi |
 | | hex-conservative | Gradale |
-| **Wallet & Infrastructure** | BDK / bdk-cli / bdk_wallet / bdk-ffi | Vaan, Psychemist, Peter, Captain Levi |
+| **Wallet & Infrastructure** | BDK / bdk-cli / bdk_wallet / bdk-ffi | Vaan, Psychemist, Peter, Muhammad |
+| | cove (Bitcoin wallet) | Muhammad |
 | | devkit-wallet | Psychemist |
 | | LDK (Lightning Dev Kit) / ldk-node | Psychemist, Gradale |
 | | Core Lightning (CLN) | Gradale |
@@ -174,12 +204,14 @@ These PRs were submitted but closed without merge — still valuable learning an
 | | rust-bitcoinkernel | Peter |
 | | bitcoinfibre | Peter |
 | **Network & Monitoring** | peer-observer | Razor |
-| | gossip-observer | Diegodev |
+| | gossip-observer / gossip_observer | Diegodev |
 | | bip324-mitm | Razor |
 | | corepc | Razor, Gradale |
 | | Stratum V2 | Kirito, Ilie |
-| **Lightning & eCash** | Alby (js-sdk, bitcoin-connect) | Dayvvo |
+| **Lightning & eCash** | OpenTollGate (Lightning/ecash captive portal) | Alex Xie |
+| | Alby (js-sdk, bitcoin-connect) | Dayvvo |
 | | cashu-ts | Dayvvo |
+| | ldk-node / Core Lightning | Gradale |
 | | Fedi ecosystem (BICustody) | Dashingtimmy |
 | **Education & Docs** | bitcointranscripts | Psychemist, Razor |
 | | saving-satoshi-script | Psychemist, Mwihoti |
@@ -190,11 +222,19 @@ These PRs were submitted but closed without merge — still valuable learning an
 | | esplora-cli | Vaan |
 | | StartOs / Robosats | Martin Barilik |
 
-**Total distinct Bitcoin projects: 28+**
+**Total distinct Bitcoin projects: 30+**
 
 ---
 
 ## Monthly Tracking Log
+
+### June 2026 (Week 2 Update — June 13)
+- **Full re-scan of every community member** against live GitHub. 8 new merged PRs since June 2; merged total now 70+, opened 110+, projects 30+, active contributors 16.
+- **Muhammad ([@muhahahmad68](https://github.com/muhahahmad68)) promoted emerging → active** — 3 merged BDK security/audit PRs ([#471](https://github.com/bitcoindevkit/bdk_wallet/pull/471) non-witness-utxo validation, [#487](https://github.com/bitcoindevkit/bdk_wallet/pull/487) panic-safety, [#476](https://github.com/bitcoindevkit/bdk_wallet/pull/476) sighash enforcement), a merged PR to the [cove](https://github.com/bitcoinppl/cove) wallet, and an open **Bitcoin Core PR [#35320](https://github.com/bitcoin/bitcoin/pull/35320)** (BIP32 seed-length validation).
+- **Captain Levi ([@SIDHARTH20K4](https://github.com/SIDHARTH20K4)) promoted emerging → active** — merged [ddust #46](https://github.com/bip451/ddust/pull/46) (P2WSH multisig sighash fix, BIP451 dust analysis); ddust #49 and RTL #1609 open.
+- **Alex Xie ([@alexxie16](https://github.com/alexxie16)) now active** — 3 merged Lightning/ecash PRs to [OpenTollGate](https://github.com/OpenTollGate/tollgate-module-basic-go) (Lightning checkout, balance view, packaging).
+- **Diegodev** opened [gossip_observer #12](https://github.com/jharveyb/gossip_observer/pull/12) — Lightning node implementation fingerprinting.
+- Deep-foundation members (Yongki, Ilie, Elijah, Shivam, Kirito, Dayvvo) — no new upstream merges this cycle; Dayvvo's Alby/Cashu work remains 2025.
 
 ### June 2026 (Week 1 Update — June 2)
 - **Re-scanned all 14 active contributor profiles against live GitHub.** New since the May 14 update:
