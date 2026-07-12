@@ -10,11 +10,11 @@
 
 | Metric | Count |
 | --- | --- |
-| **PRs Merged (direct link for every one)** | **92** |
+| **PRs Merged (direct link for every one)** | **96** |
 | **PRs Open / Under Review** | **40+** |
-| **Total PRs Opened** | **130+** |
+| **Total PRs Opened** | **135+** |
 | **Distinct Projects Contributed To** | **30+** |
-| **Active Contributors** | **11** |
+| **Active Contributors (linked below)** | **12** |
 | **Emerging Contributors (first PR imminent)** | **4** |
 
 Highlights: a merged **Bitcoin Core** PR (Peter), **9 merged rust-payjoin** PRs across three contributors (Vaan ×5, Arowolo ×3, Mwihoti ×1), merged PRs in **rust-bitcoin** (Peter ×2, Vaan, Muhammad, Gradale), **hex-conservative**, **Floresta**, **BDK/bdk-cli/bdk_wallet/bdk-ffi**, **LDK**, and **peer-observer** ×4.
@@ -99,11 +99,17 @@ Plus 2025 Silent Payments work at the Bitshala Incubator: [silent-pay-wallet](ht
 | **rust-payjoin (BIP77 Async Payjoin)** | [#1659](https://github.com/payjoin/rust-payjoin/pull/1659) | Jun 2026 |
 | rust-payjoin | [#1498](https://github.com/payjoin/rust-payjoin/pull/1498) · [#1457](https://github.com/payjoin/rust-payjoin/pull/1457) <!-- click-verify merged status before push --> | 2026 |
 
-### Gradale ([@alexgrad42](https://github.com/alexgrad42)) — 2 merged
+### Gradale ([@alexgrad42](https://github.com/alexgrad42)) — 3 merged
 | Project | PR | Date |
 | --- | --- | --- |
 | rust-bitcoin | [#6125](https://github.com/rust-bitcoin/rust-bitcoin/pull/6125) — constant-time Poly1305 equality | 2026 |
 | hex-conservative | [#245](https://github.com/rust-bitcoin/hex-conservative/pull/245) | 2026 |
+| corepc | [#604](https://github.com/rust-bitcoin/corepc/pull/604) | 2026 |
+
+### Alex Xie ([@alexxie16](https://github.com/alexxie16)) — 3 merged
+| Project | PR | Date |
+| --- | --- | --- |
+| OpenTollGate (Lightning/ecash) | [Lightning checkout, balance view, OpenWrt packaging](https://github.com/OpenTollGate/tollgate-module-basic-go/pulls?q=involves%3Aalexxie16) <!-- TODO: direct PR links --> | 2026 |
 
 ### Mwihoti ([@mwihoti](https://github.com/mwihoti)) — 1 merged
 | Project | PR | Date |
@@ -127,7 +133,7 @@ Plus 2025 Silent Payments work at the Bitshala Incubator: [silent-pay-wallet](ht
 | Peter | kernel-node | [#78](https://github.com/kernel-node/kernel-node/pull/78) · [#68](https://github.com/kernel-node/kernel-node/pull/68) · [#47](https://github.com/kernel-node/kernel-node/pull/47) · [#32](https://github.com/kernel-node/kernel-node/pull/32) · [#31](https://github.com/kernel-node/kernel-node/pull/31) · [#29](https://github.com/kernel-node/kernel-node/pull/29) · [#28](https://github.com/kernel-node/kernel-node/pull/28) |
 | Mwihoti | Saving Satoshi | [#20](https://github.com/saving-satoshi/saving-satoshi-script/pull/20) — note: rust-bitcoin [#5801](https://github.com/rust-bitcoin/rust-bitcoin/pull/5801) was closed unmerged; next attempt in progress |
 | Razor | corepc · bitcointranscripts | [corepc #547](https://github.com/rust-bitcoin/corepc/pull/547) · [#612](https://github.com/bitcointranscripts/bitcointranscripts/pull/612) <!-- click-verify status --> |
-| Gradale | hex-conservative | [#247](https://github.com/rust-bitcoin/hex-conservative/pull/247) |
+| Gradale | hex-conservative · ldk-node · Core Lightning | [#247](https://github.com/rust-bitcoin/hex-conservative/pull/247) · [ldk-node #905](https://github.com/lightningdevkit/ldk-node/pull/905) · [CLN #9162](https://github.com/ElementsProject/lightning/pull/9162) |
 | Vaan | rust-bitcoin · rust-miniscript · bdk-cli · Bitcoin Dev Project | [#5951](https://github.com/rust-bitcoin/rust-bitcoin/pull/5951) · [#916](https://github.com/rust-bitcoin/rust-miniscript/pull/916) · [#281](https://github.com/bitcoindevkit/bdk-cli/pull/281) · [#240](https://github.com/bitcoindevkit/bdk-cli/pull/240) · [#311](https://github.com/bitcoin-dev-project/bitcoin-dev-project/pull/311) |
 | Chaitika | shroud / shroud-indexer | [#124](https://github.com/CypherCommons/shroud/pull/124) · [#123](https://github.com/CypherCommons/shroud/pull/123) · [#118](https://github.com/CypherCommons/shroud/pull/118) · [#109](https://github.com/CypherCommons/shroud/pull/109) · [#88](https://github.com/CypherCommons/shroud/pull/88) · [#72](https://github.com/CypherCommons/shroud/pull/72) · [#69](https://github.com/CypherCommons/shroud/pull/69) · [#103](https://github.com/CypherCommons/shroud-indexer/pull/103) |
 | Psychemist | BDK devkit-wallet · Mastering Taproot | [#53](https://github.com/bitcoindevkit/devkit-wallet/pull/53) · [#26](https://github.com/aaron-recompile/mastering-taproot/pull/26) · [#25](https://github.com/aaron-recompile/mastering-taproot/pull/25) |
