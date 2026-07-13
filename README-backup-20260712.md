@@ -1,4 +1,4 @@
-# Code Orange Dev School — PR Tracking Dashboard
+# Code Orange Dev School - PR Tracking Dashboard
 
 > **Tracking every pull request by Code Orange community members to Bitcoin open-source projects.**
 >
@@ -19,7 +19,7 @@
 
 > **Note (June 13 update):** Full re-scan of every community member against live GitHub. Three contributors promoted emerging → active: **Muhammad** (3 merged BDK security/audit PRs + open Bitcoin Core #35320), **Captain Levi** (merged ddust #46), and **Alex Xie** (merged Lightning/ecash PRs to OpenTollGate). The Silent Payments wallet formerly at `Bitshala-Incubator/silent-pay-wallet` is now developed at [`CypherCommons/shroud`](https://github.com/CypherCommons/shroud).
 
-### Quick view — contributors by merged PRs
+### Quick view - contributors by merged PRs
 
 | Contributor | Merged (2026) | Primary focus |
 |---|---|---|
@@ -34,7 +34,7 @@
 | Arowolo | 2 | Payjoin (BIP77) |
 | Captain Levi | 1 | ddust (BIP451 dust analysis) |
 | Mwihoti | 1 | Payjoin (first merge) |
-| Diegodev, Dayvvo, Bunny | — | LN fingerprinting, Alby/Cashu, translation |
+| Diegodev, Dayvvo, Bunny | - | LN fingerprinting, Alby/Cashu, translation |
 
 ---
 
@@ -47,7 +47,7 @@
 | 3 | Peter | [@pzafonte](https://github.com/pzafonte) | [rust-bitcoin](https://github.com/rust-bitcoin/rust-bitcoin) | [#5917](https://github.com/rust-bitcoin/rust-bitcoin/pull/5917) | p2p: add BlockLocator newtype with logarithmic build method | Apr 2026 | Merged |
 | 4 | Peter | [@pzafonte](https://github.com/pzafonte) | [rust-bitcoinkernel](https://github.com/sedited/rust-bitcoinkernel) | [#164](https://github.com/sedited/rust-bitcoinkernel/pull/164) | feat(core): expose BlockTreeEntry::ancestor | Apr 2026 | Merged |
 | 5 | Peter | [@pzafonte](https://github.com/pzafonte) | [kernel-node](https://github.com/kernel-node/kernel-node) | [#30](https://github.com/kernel-node/kernel-node/pull/30) | feat: add logarithmic block locators for getheaders and getblocks | Mar 2026 | Merged |
-| 6 | Chaitika | [@chaitika](https://github.com/chaitika) | [silent-pay-wallet](https://github.com/Bitshala-Incubator/silent-pay-wallet) | [#93](https://github.com/Bitshala-Incubator/silent-pay-wallet/pull/93) | Clean repo — root file cleanup | May 2026 | Merged |
+| 6 | Chaitika | [@chaitika](https://github.com/chaitika) | [silent-pay-wallet](https://github.com/Bitshala-Incubator/silent-pay-wallet) | [#93](https://github.com/Bitshala-Incubator/silent-pay-wallet/pull/93) | Clean repo - root file cleanup | May 2026 | Merged |
 | 7 | Chaitika | [@chaitika](https://github.com/chaitika) | [silent-pay-wallet](https://github.com/Bitshala-Incubator/silent-pay-wallet) | [#89](https://github.com/Bitshala-Incubator/silent-pay-wallet/pull/89) | Remove BIP47 payment codes | Apr 2026 | Merged |
 | 8 | Chaitika | [@chaitika](https://github.com/chaitika) | [silent-pay-wallet](https://github.com/Bitshala-Incubator/silent-pay-wallet) | [#86](https://github.com/Bitshala-Incubator/silent-pay-wallet/pull/86) | Remove Apple platform features | Apr 2026 | Merged |
 | 9 | Chaitika | [@chaitika](https://github.com/chaitika) | [silent-pay-wallet](https://github.com/Bitshala-Incubator/silent-pay-wallet) | [#83](https://github.com/Bitshala-Incubator/silent-pay-wallet/pull/83) | Remove Multisig wallet support | Apr 2026 | Merged |
@@ -85,12 +85,12 @@
 | 41 | Psychemist | [@psychemist](https://github.com/psychemist) | [mastering-taproot](https://github.com/aaron-recompile/mastering-taproot) | [#23](https://github.com/aaron-recompile/mastering-taproot/pull/23) | Fix Schnorr tweak logic (BIP341) | Feb 2026 | Merged |
 | 42 | Psychemist | [@psychemist](https://github.com/psychemist) | [mastering-taproot](https://github.com/aaron-recompile/mastering-taproot) | [#22](https://github.com/aaron-recompile/mastering-taproot/pull/22) | Correct transaction visualizations | Feb 2026 | Merged |
 | 43 | Psychemist | [@psychemist](https://github.com/psychemist) | [rust-lightning (LDK)](https://github.com/lightningdevkit/rust-lightning) | [#4293](https://github.com/lightningdevkit/rust-lightning/pull/4293) | Change Bolt11Invoice payment_hash function return type | Jan 2025 | Merged |
-| 44 | Diegodev | [@0xlaga](https://github.com/0xlaga) | [gossip-observer](https://github.com/0xlaga) | — | Gossip observer contributions | 2025 | Merged |
-| 45 | Bunny Rolling Dice | [@rollingdice](https://github.com/rollingdice) | [BlueWallet](https://github.com/BlueWallet/BlueWallet) | — | Bahasa Indonesia translation | 2025 | Merged |
-| 46 | Muhammad | [@muhahahmad68](https://github.com/muhahahmad68) | [SurrealDB](https://github.com/surrealdb/surrealdb) | — | OSS contribution in Rust (non-Bitcoin, demonstrating capability) | 2025 | Merged |
-| 47 | Dayvvo | [@dayvvo](https://github.com/dayvvo) | [getalby/js-sdk](https://github.com/getalby/js-sdk) | — | Alby JS SDK contribution | 2025 | Merged |
-| 48 | Dayvvo | [@dayvvo](https://github.com/dayvvo) | [getalby/bitcoin-connect](https://github.com/getalby/bitcoin-connect) | — | Alby Bitcoin Connect contribution | 2025 | Merged |
-| 49 | Dayvvo | [@dayvvo](https://github.com/dayvvo) | [cashu-ts](https://github.com/cashubtc/cashu-ts) | — | Cashu TypeScript library contribution | 2025 | Merged |
+| 44 | Diegodev | [@0xlaga](https://github.com/0xlaga) | [gossip-observer](https://github.com/0xlaga) | - | Gossip observer contributions | 2025 | Merged |
+| 45 | Bunny Rolling Dice | [@rollingdice](https://github.com/rollingdice) | [BlueWallet](https://github.com/BlueWallet/BlueWallet) | - | Bahasa Indonesia translation | 2025 | Merged |
+| 46 | Muhammad | [@muhahahmad68](https://github.com/muhahahmad68) | [SurrealDB](https://github.com/surrealdb/surrealdb) | - | OSS contribution in Rust (non-Bitcoin, demonstrating capability) | 2025 | Merged |
+| 47 | Dayvvo | [@dayvvo](https://github.com/dayvvo) | [getalby/js-sdk](https://github.com/getalby/js-sdk) | - | Alby JS SDK contribution | 2025 | Merged |
+| 48 | Dayvvo | [@dayvvo](https://github.com/dayvvo) | [getalby/bitcoin-connect](https://github.com/getalby/bitcoin-connect) | - | Alby Bitcoin Connect contribution | 2025 | Merged |
+| 49 | Dayvvo | [@dayvvo](https://github.com/dayvvo) | [cashu-ts](https://github.com/cashubtc/cashu-ts) | - | Cashu TypeScript library contribution | 2025 | Merged |
 | 50 | Peter | [@pzafonte](https://github.com/pzafonte) | [kernel-node](https://github.com/kernel-node/kernel-node) | [#50](https://github.com/kernel-node/kernel-node/pull/50) | Silent Payments: integrate SPDK scanning and wallet IPC (BIP352) | May 2026 | Merged |
 | 51 | Peter | [@pzafonte](https://github.com/pzafonte) | [kernel-node](https://github.com/kernel-node/kernel-node) | [#56](https://github.com/kernel-node/kernel-node/pull/56) | Silent Payments: file-based key import/export | May 2026 | Merged |
 | 52 | Peter | [@pzafonte](https://github.com/pzafonte) | [kernel-node](https://github.com/kernel-node/kernel-node) | [#60](https://github.com/kernel-node/kernel-node/pull/60) | Silent Payments: file-backed wallet store | Jun 2026 | Merged |
@@ -104,7 +104,7 @@
 | 60 | Chaitika | [@chaitika](https://github.com/chaitika) | [shroud](https://github.com/CypherCommons/shroud) | [#102](https://github.com/CypherCommons/shroud/pull/102) | DEL: push-notification telemetry, Sign/Verify, Export Private Key (privacy hardening) | May 2026 | Merged |
 | 61 | Chaitika | [@chaitika](https://github.com/chaitika) | [shroud](https://github.com/CypherCommons/shroud) | [#101](https://github.com/CypherCommons/shroud/pull/101) | DEL: quick-actions toggle and Android home-screen widgets | May 2026 | Merged |
 | 62 | Chaitika | [@chaitika](https://github.com/chaitika) | [shroud](https://github.com/CypherCommons/shroud) | [#76](https://github.com/CypherCommons/shroud/pull/76) | FIX: persist birth height to disk | May 2026 | Merged |
-| 63 | Mwihoti | [@mwihoti](https://github.com/mwihoti) | [rust-payjoin](https://github.com/payjoin/rust-payjoin) | [#1589](https://github.com/payjoin/rust-payjoin/pull/1589) | chore: add lcov.info to root .gitignore — **first merged Bitcoin PR** | May 2026 | Merged |
+| 63 | Mwihoti | [@mwihoti](https://github.com/mwihoti) | [rust-payjoin](https://github.com/payjoin/rust-payjoin) | [#1589](https://github.com/payjoin/rust-payjoin/pull/1589) | chore: add lcov.info to root .gitignore - **first merged Bitcoin PR** | May 2026 | Merged |
 | 64 | Muhammad | [@muhahahmad68](https://github.com/muhahahmad68) | [bdk_wallet](https://github.com/bitcoindevkit/bdk_wallet) | [#471](https://github.com/bitcoindevkit/bdk_wallet/pull/471) | fix(audit): non-witness-utxo txid validation for PSBT (security) | May 2026 | Merged |
 | 65 | Muhammad | [@muhahahmad68](https://github.com/muhahahmad68) | [bdk_wallet](https://github.com/bitcoindevkit/bdk_wallet) | [#487](https://github.com/bitcoindevkit/bdk_wallet/pull/487) | fix(types): avoid reachable panics in Utxo::txout for Foreign variant | May 2026 | Merged |
 | 66 | Muhammad | [@muhahahmad68](https://github.com/muhahahmad68) | [bdk_wallet](https://github.com/bitcoindevkit/bdk_wallet) | [#476](https://github.com/bitcoindevkit/bdk_wallet/pull/476) | fix(signer): respect allow_all_sighashes in SignerWrapper::sign_input | May 2026 | Merged |
@@ -131,7 +131,7 @@
 | 9 | Gradale | [@alexgrad42](https://github.com/alexgrad42) | [ldk-node](https://github.com/lightningdevkit/ldk-node) | [#906](https://github.com/lightningdevkit/ldk-node/pull/906) | fix(payment): skip store insertion on routing failures to allow retry | Open |
 | 10 | Gradale | [@alexgrad42](https://github.com/alexgrad42) | [Core Lightning (CLN)](https://github.com/ElementsProject/lightning) | [#9162](https://github.com/ElementsProject/lightning/pull/9162) | offers: add used_count to listoffers (BOLT12) | Open |
 | 11 | Razor | [@RazorBest](https://github.com/RazorBest) | [peer-observer](https://github.com/peer-observer/peer-observer) | [#400](https://github.com/peer-observer/peer-observer/pull/400) | Generic anomaly detection with Prometheus | Open |
-| 12 | Razor | [@RazorBest](https://github.com/RazorBest) | [bip324-mitm](https://github.com/RazorBest/bip324-mitm) | [View repo](https://github.com/RazorBest/bip324-mitm) | BIP324 MITM tool — state machine + protocol error handling | Active development |
+| 12 | Razor | [@RazorBest](https://github.com/RazorBest) | [bip324-mitm](https://github.com/RazorBest/bip324-mitm) | [View repo](https://github.com/RazorBest/bip324-mitm) | BIP324 MITM tool - state machine + protocol error handling | Active development |
 | 13 | Psychemist | [@psychemist](https://github.com/psychemist) | [devkit-wallet](https://github.com/bitcoindevkit/devkit-wallet) | [#53](https://github.com/bitcoindevkit/devkit-wallet/pull/53) | feat: minimal sweep WIF QR-code implementation | Open |
 | 14 | Chaitika | [@chaitika](https://github.com/chaitika) | [shroud](https://github.com/CypherCommons/shroud) | [#88](https://github.com/CypherCommons/shroud/pull/88) | Integrate Tor/Orbot to wallet for indexer requests | Under review |
 | 15 | Chaitika | [@chaitika](https://github.com/chaitika) | [shroud](https://github.com/CypherCommons/shroud) | [#103](https://github.com/CypherCommons/shroud/pull/103) | REF: rewrite e2e suite | Open |
@@ -142,13 +142,13 @@
 | 20 | Captain Levi | [@SIDHARTH20K4](https://github.com/SIDHARTH20K4) | [ddust](https://github.com/bip451/ddust) | [#49](https://github.com/bip451/ddust/pull/49) | test: P2SH-P2WSH and P2SH 2of3 multisig integration tests | Open |
 | 21 | Captain Levi | [@SIDHARTH20K4](https://github.com/SIDHARTH20K4) | [Ride-The-Lightning](https://github.com/Ride-The-Lightning/RTL) | [#1609](https://github.com/Ride-The-Lightning/RTL/pull/1609) | a11y: add mat-labels and fix keyboard nav | Open |
 | 22 | Alex Xie | [@alexxie16](https://github.com/alexxie16) | [tollgate-module-basic-go](https://github.com/OpenTollGate/tollgate-module-basic-go) | [#106](https://github.com/OpenTollGate/tollgate-module-basic-go/pull/106) | fix: evict expired timed sessions and start scan loop | Open |
-| 23 | Diegodev | [@0xlaga](https://github.com/0xlaga) | [gossip_observer](https://github.com/jharveyb/gossip_observer) | [#12](https://github.com/jharveyb/gossip_observer/pull/12) | impl_fingerprint — Lightning node implementation fingerprinting | Open |
+| 23 | Diegodev | [@0xlaga](https://github.com/0xlaga) | [gossip_observer](https://github.com/jharveyb/gossip_observer) | [#12](https://github.com/jharveyb/gossip_observer/pull/12) | impl_fingerprint - Lightning node implementation fingerprinting | Open |
 
 ---
 
 ## Closed Pull Requests (Not Merged)
 
-These PRs were submitted but closed without merge — still valuable learning and contribution attempts.
+These PRs were submitted but closed without merge - still valuable learning and contribution attempts.
 
 | # | Developer | GitHub | Project | PR Link | Description | Status |
 |---|-----------|--------|---------|---------|-------------|--------|
@@ -228,46 +228,46 @@ These PRs were submitted but closed without merge — still valuable learning an
 
 ## Monthly Tracking Log
 
-### June 2026 (Week 2 Update — June 13)
+### June 2026 (Week 2 Update - June 13)
 - **Full re-scan of every community member** against live GitHub. 8 new merged PRs since June 2; merged total now 70+, opened 110+, projects 30+, active contributors 16.
-- **Muhammad ([@muhahahmad68](https://github.com/muhahahmad68)) promoted emerging → active** — 3 merged BDK security/audit PRs ([#471](https://github.com/bitcoindevkit/bdk_wallet/pull/471) non-witness-utxo validation, [#487](https://github.com/bitcoindevkit/bdk_wallet/pull/487) panic-safety, [#476](https://github.com/bitcoindevkit/bdk_wallet/pull/476) sighash enforcement), a merged PR to the [cove](https://github.com/bitcoinppl/cove) wallet, and an open **Bitcoin Core PR [#35320](https://github.com/bitcoin/bitcoin/pull/35320)** (BIP32 seed-length validation).
-- **Captain Levi ([@SIDHARTH20K4](https://github.com/SIDHARTH20K4)) promoted emerging → active** — merged [ddust #46](https://github.com/bip451/ddust/pull/46) (P2WSH multisig sighash fix, BIP451 dust analysis); ddust #49 and RTL #1609 open.
-- **Alex Xie ([@alexxie16](https://github.com/alexxie16)) now active** — 3 merged Lightning/ecash PRs to [OpenTollGate](https://github.com/OpenTollGate/tollgate-module-basic-go) (Lightning checkout, balance view, packaging).
-- **Diegodev** opened [gossip_observer #12](https://github.com/jharveyb/gossip_observer/pull/12) — Lightning node implementation fingerprinting.
-- Deep-foundation members (Yongki, Ilie, Elijah, Shivam, Kirito, Dayvvo) — no new upstream merges this cycle; Dayvvo's Alby/Cashu work remains 2025.
+- **Muhammad ([@muhahahmad68](https://github.com/muhahahmad68)) promoted emerging → active** - 3 merged BDK security/audit PRs ([#471](https://github.com/bitcoindevkit/bdk_wallet/pull/471) non-witness-utxo validation, [#487](https://github.com/bitcoindevkit/bdk_wallet/pull/487) panic-safety, [#476](https://github.com/bitcoindevkit/bdk_wallet/pull/476) sighash enforcement), a merged PR to the [cove](https://github.com/bitcoinppl/cove) wallet, and an open **Bitcoin Core PR [#35320](https://github.com/bitcoin/bitcoin/pull/35320)** (BIP32 seed-length validation).
+- **Captain Levi ([@SIDHARTH20K4](https://github.com/SIDHARTH20K4)) promoted emerging → active** - merged [ddust #46](https://github.com/bip451/ddust/pull/46) (P2WSH multisig sighash fix, BIP451 dust analysis); ddust #49 and RTL #1609 open.
+- **Alex Xie ([@alexxie16](https://github.com/alexxie16)) now active** - 3 merged Lightning/ecash PRs to [OpenTollGate](https://github.com/OpenTollGate/tollgate-module-basic-go) (Lightning checkout, balance view, packaging).
+- **Diegodev** opened [gossip_observer #12](https://github.com/jharveyb/gossip_observer/pull/12) - Lightning node implementation fingerprinting.
+- Deep-foundation members (Yongki, Ilie, Elijah, Shivam, Kirito, Dayvvo) - no new upstream merges this cycle; Dayvvo's Alby/Cashu work remains 2025.
 
-### June 2026 (Week 1 Update — June 2)
+### June 2026 (Week 1 Update - June 2)
 - **Re-scanned all 14 active contributor profiles against live GitHub.** New since the May 14 update:
   - **14 new merged PRs** (merged total now 60+):
-    - **Peter** — Silent Payments milestone: kernel-node #50 (SPDK scanning + wallet IPC), #56 (key import/export), #60 (file-backed wallet store) all merged; rust-bitcoinkernel #177 (expose `Block::check`) merged.
-    - **Vaan** — rust-payjoin #1576, #1590 merged; payjoin.org #133 merged.
-    - **Gradale** — corepc #604 merged; hex-conservative #247 merged. Expanded into Lightning (ldk-node, Core Lightning BOLT12).
-    - **Chaitika** — shroud #73 (Track-payment-by-TXID, SP scan), #102 (privacy hardening: removed push-notification telemetry), #101, #76 merged.
-    - **Mwihoti** — rust-payjoin #1589 merged — **first merged Bitcoin PR**, promoted from emerging to active contributor.
-  - **New notable open PRs:** Peter — **Bitcoin Core #35380** (expose witness stack & scriptSig, required for Silent Payments scanning); Gradale — Core Lightning #9162 (BOLT12 `used_count`), ldk-node #905 BOLT12 interop; Chaitika — shroud #103/#108/#109.
+    - **Peter** - Silent Payments milestone: kernel-node #50 (SPDK scanning + wallet IPC), #56 (key import/export), #60 (file-backed wallet store) all merged; rust-bitcoinkernel #177 (expose `Block::check`) merged.
+    - **Vaan** - rust-payjoin #1576, #1590 merged; payjoin.org #133 merged.
+    - **Gradale** - corepc #604 merged; hex-conservative #247 merged. Expanded into Lightning (ldk-node, Core Lightning BOLT12).
+    - **Chaitika** - shroud #73 (Track-payment-by-TXID, SP scan), #102 (privacy hardening: removed push-notification telemetry), #101, #76 merged.
+    - **Mwihoti** - rust-payjoin #1589 merged - **first merged Bitcoin PR**, promoted from emerging to active contributor.
+  - **New notable open PRs:** Peter - **Bitcoin Core #35380** (expose witness stack & scriptSig, required for Silent Payments scanning); Gradale - Core Lightning #9162 (BOLT12 `used_count`), ldk-node #905 BOLT12 interop; Chaitika - shroud #103/#108/#109.
   - **Status corrections:** moved kernel-node #50, rust-bitcoinkernel #177, hex-conservative #247, payjoin.org #133, shroud #76 from Open/Draft → Merged; moved rust-bitcoin #5951 (Vaan), bitcoin #35382 (Peter) → Closed.
   - **Repo migration noted:** `Bitshala-Incubator/silent-pay-wallet` → `CypherCommons/shroud` (Chaitika's SP wallet).
 - Active contributors: 14 (Mwihoti added). Distinct projects: 28+ (added shroud, ldk-node, Core Lightning, bdk-ffi, bitcoinfibre).
 
-### May 2026 (Week 3 Update — May 14)
+### May 2026 (Week 3 Update - May 14)
 - **Cross-checked every PR against live GitHub data.** Major corrections:
-  - **9 PRs moved from "Open" to "Merged"** — Peter (#34885 Bitcoin Core!, #5968, #5917, #164), Vaan (#1554), Arowolo (#1498, #1457), Psychemist (#24, #31)
-  - **9 PRs moved to new "Closed" section** — Gradale (#6131, #6112, #4589), Vaan (#916, #311, #240), Psychemist (#25, #26), Mwihoti (#5801)
-  - **4 missing PRs added** — Peter kernel-node #30 (merged), Razor bitcointranscripts #612 (merged), Psychemist rust-lightning #4293 (merged), Vaan bdk-cli #224, #208 (merged)
-  - **3 new open PRs added** — Chaitika #88 (Tor/Orbot), #76 (persist birth height), Peter kernel-node #32 (PeerManager)
-- **Peter's Bitcoin Core PR #34885 confirmed MERGED into bitcoin:master** — huge milestone
-- **Arowolo's 2 rust-payjoin PRs both merged** — now has 2 merged contributions
+  - **9 PRs moved from "Open" to "Merged"** - Peter (#34885 Bitcoin Core!, #5968, #5917, #164), Vaan (#1554), Arowolo (#1498, #1457), Psychemist (#24, #31)
+  - **9 PRs moved to new "Closed" section** - Gradale (#6131, #6112, #4589), Vaan (#916, #311, #240), Psychemist (#25, #26), Mwihoti (#5801)
+  - **4 missing PRs added** - Peter kernel-node #30 (merged), Razor bitcointranscripts #612 (merged), Psychemist rust-lightning #4293 (merged), Vaan bdk-cli #224, #208 (merged)
+  - **3 new open PRs added** - Chaitika #88 (Tor/Orbot), #76 (persist birth height), Peter kernel-node #32 (PeerManager)
+- **Peter's Bitcoin Core PR #34885 confirmed MERGED into bitcoin:master** - huge milestone
+- **Arowolo's 2 rust-payjoin PRs both merged** - now has 2 merged contributions
 - Merged PRs now 45+ (up from 30+)
 - Added "Closed Pull Requests" section for transparency
 
-### May 2026 (Week 2 — May 13)
-- **NEW CONTRIBUTOR:** Gradale added with 6 PRs — rust-bitcoin (#6125 merged), hex-conservative (#245 merged, #247 open), plus 3 closed PRs
+### May 2026 (Week 2 - May 13)
+- **NEW CONTRIBUTOR:** Gradale added with 6 PRs - rust-bitcoin (#6125 merged), hex-conservative (#245 merged, #247 open), plus 3 closed PRs
 - **Chaitika:** 11 merged PRs in 2026 across silent-pay-wallet, silent-pay-indexer, and Bitshala LN assignments
-- **Vaan:** 14 PRs across 7 projects — rust-payjoin, bdk-cli, bdk_wallet, rust-bitcoin, esplora-cli, payjoin.org
+- **Vaan:** 14 PRs across 7 projects - rust-payjoin, bdk-cli, bdk_wallet, rust-bitcoin, esplora-cli, payjoin.org
 - **Razor:** peer-observer (anomaly detection with Prometheus, eBPF extractor), corepc, bitcointranscripts, bip324-mitm (new project)
 - **Peter:** Bitcoin Core (#34885), kernel-node (Silent Payments integration), rust-bitcoinkernel, rust-bitcoin P2P work
 - **Psychemist:** saving-satoshi-script (OP_CHECKSIGADD), bitcointranscripts, mastering-taproot, devkit-wallet, rust-lightning
-- **Arowolo:** 2 PRs to rust-payjoin (#1498, #1457) — both merged
+- **Arowolo:** 2 PRs to rust-payjoin (#1498, #1457) - both merged
 - Active contributors: 13
 
 ### May 2026 (Week 1)
