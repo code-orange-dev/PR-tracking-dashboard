@@ -21,7 +21,24 @@ Highlights: a merged **Bitcoin Core** PR (Peter), **9 merged rust-payjoin** PRs 
 
 ---
 
-## Merged Pull Requests by Developer (88)
+## Current Metrics Data Contract
+
+This dashboard is Code Orange's public source for **current PR output**. Historical reports and contributor profiles may use earlier snapshots and must link here rather than repeat these totals.
+
+| Field | Rule |
+| --- | --- |
+| **Reporting cutoff** | Full link-level verification through **12 July 2026**; the dashboard revision is dated 13 July 2026. |
+| **Attribution** | Count only in-scope Bitcoin OSS PRs with a direct link. PRs made before a developer joined Code Orange may be listed as history, but are excluded from program-outcome claims. |
+| **PR state** | *Merged* means accepted upstream. *Open / under review* means submitted and neither merged nor closed at the reporting cutoff. Closed-unmerged PRs are not counted as open. |
+| **Active contributor** | A unique named community member with an in-scope PR that is open/under review or had a verified merged contribution in the reporting window. Re-verify the label at each monthly update. |
+| **Metric owner** | The named Code Orange **PR Verifier**, recorded in the weekly operating scorecard. |
+| **Cadence** | Verify state changes weekly; publish this dashboard's refreshed public snapshot monthly, with the cutoff date shown. |
+
+**Counting note:** the 96 merged total is the sum of the linked developer rows below. The table also contains one prospective contributor whose GitHub handle is pending; that person is not included in the four verified emerging contributors.
+
+---
+
+## Merged Pull Requests by Developer (96)
 
 ### Peter ([@pzafonte](https://github.com/pzafonte)) - 14 merged
 | Project | PR | Date |
@@ -145,6 +162,8 @@ Plus 2025 Silent Payments work at the Bitshala Incubator: [silent-pay-wallet](ht
 
 ## Emerging Contributors (First PR Imminent)
 
+Four contributors below have verified GitHub handles and are included in the summary. The prospective entry is retained for pipeline follow-up but excluded until its handle and target are confirmed.
+
 | Developer | GitHub | Target Project | Expected |
 | --- | --- | --- | --- |
 | Captain Levi | [@SIDHARTH20K4](https://github.com/SIDHARTH20K4) | BDK | Q3 2026 |
@@ -159,7 +178,7 @@ Plus 2025 Silent Payments work at the Bitshala Incubator: [silent-pay-wallet](ht
 
 ### July 2026
 * Full verification pass via the GitHub API: every merged PR now carries a direct link
-* Summary corrected upward from 18+/12+ to 128+/88 - the April baseline had badly undercounted
+* The April baseline was substantially undercounted. Link-level verification first established 88 merged PRs; follow-up verification raised the linked total to 96.
 * Newly verified merges since the May report: Arowolo's first rust-payjoin PR (#1659), Mwihoti's first rust-payjoin PR (#1589), Peter's Bitcoin Core #34885 + kernel-node series, Psychemist's LDK #4293, Muhammad's rust-bitcoin/Floresta/bdk_wallet run, Razor's peer-observer #400 & #408, Chaitika's 17 shroud merges
 * Attribution note added: PRs made before a developer joined Code Orange (e.g. Dayvvo's 2024 work) are marked with * and excluded from program-outcome claims
 
