@@ -1,0 +1,36 @@
+name: Verify dashboard
+
+on:
+  schedule:
+    - cron: "0 2 * * 1"   # Mondays 02:00 UTC, the data contract's weekly check
+  pull_request:
+    paths: ["README.md", "tools/**"]
+  workflow_dispatch:
+    inputs:
+      since:
+        description: "Also list unlisted PRs created/merged after this date (YYYY-MM-DD)"
+        required: false
+
+permissions:
+  contents: read
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Verify every linked PR against GitHub
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          SINCE: ${{ github.event.inputs.since }}
+        run: |
+          args="--strict --out report.md"
+          if [ -n "$SINCE" ]; then args="$args --since $SINCE"; fi
+          set +e
+          python3 tools/verify_dashboard.py $args
+          status=$?
+          cat report.md >> "$GITHUB_STEP_SUMMARY"
+          exit $status
