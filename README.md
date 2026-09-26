@@ -2,7 +2,7 @@
 
 > **Tracking every pull request by Code Orange community members to Bitcoin open-source projects.**
 >
-> Last updated: July 2026 (full verification pass via GitHub API) | Next update: August 2026
+> Last updated: 26 September 2026 (link states re-verified with `tools/verify_dashboard.py`; new PRs since 12 July pending review) | Checked weekly by CI
 
 ---
 
@@ -10,14 +10,14 @@
 
 | Metric | Count |
 | --- | --- |
-| **PRs Merged (direct link for every one)** | **96** |
-| **PRs Open / Under Review** | **40+** |
+| **PRs Merged (direct link for every one)** | **106** |
+| **PRs Open / Under Review** | **7 linked** (post-July PRs pending review) |
 | **Total PRs Opened** | **135+** |
 | **Distinct Projects Contributed To** | **30+** |
 | **Active Contributors (linked below)** | **12** |
 | **Emerging Contributors (first PR imminent)** | **4** |
 
-Highlights: a merged **Bitcoin Core** PR (Peter), **9 merged rust-payjoin** PRs across three contributors (Vaan ×5, Arowolo ×3, Mwihoti ×1), merged PRs in **rust-bitcoin** (Peter ×2, Vaan, Muhammad, Gradale), **hex-conservative**, **Floresta**, **BDK/bdk-cli/bdk_wallet/bdk-ffi**, **LDK**, and **peer-observer** ×4.
+Highlights: **3 merged Bitcoin Core** PRs (Peter ×2, Muhammad), **9 merged rust-payjoin** PRs across three contributors (Vaan ×5, Arowolo ×3, Mwihoti ×1), merged PRs in **rust-bitcoin** (Peter ×2, Vaan, Muhammad, Gradale), **hex-conservative**, **Floresta**, **BDK/bdk-cli/bdk_wallet/bdk-ffi**, **LDK**, and **peer-observer** ×4.
 
 ---
 
@@ -27,7 +27,7 @@ This dashboard is Code Orange's public source for **current PR output**. Histori
 
 | Field | Rule |
 | --- | --- |
-| **Reporting cutoff** | Full link-level verification through **12 July 2026**; the dashboard revision is dated 13 July 2026. |
+| **Reporting cutoff** | Link states re-verified **26 September 2026**. PRs opened or merged after **12 July 2026** that aren't linked yet are pending the Verifier's scope review. |
 | **Attribution** | Count only in-scope Bitcoin OSS PRs with a direct link. PRs made before a developer joined Code Orange may be listed as history, but are excluded from program-outcome claims. |
 | **PR state** | *Merged* means accepted upstream. *Open / under review* means submitted and neither merged nor closed at the reporting cutoff. Closed-unmerged PRs are not counted as open. |
 | **Active contributor** | A unique named community member with an in-scope PR that is open/under review or had a verified merged contribution in the reporting window. Re-verify the label at each monthly update. |
@@ -38,15 +38,16 @@ This dashboard is Code Orange's public source for **current PR output**. Histori
 
 ---
 
-## Merged Pull Requests by Developer (96)
+## Merged Pull Requests by Developer (106)
 
-### Peter ([@pzafonte](https://github.com/pzafonte)) - 14 merged
+### Peter ([@pzafonte](https://github.com/pzafonte)) - 17 merged
 | Project | PR | Date |
 | --- | --- | --- |
 | **Bitcoin Core** | [bitcoin/bitcoin #34885](https://github.com/bitcoin/bitcoin/pull/34885) | Apr 2026 |
+| **Bitcoin Core** | [bitcoin/bitcoin #35380](https://github.com/bitcoin/bitcoin/pull/35380) - kernel: expose witness/scriptSig (Silent Payments scanning) | Jul 2026 |
 | rust-bitcoin | [#5968](https://github.com/rust-bitcoin/rust-bitcoin/pull/5968) | Apr 2026 |
 | rust-bitcoin | [#5917](https://github.com/rust-bitcoin/rust-bitcoin/pull/5917) | Apr 2026 |
-| kernel-node | [#71](https://github.com/kernel-node/kernel-node/pull/71) · [#66](https://github.com/kernel-node/kernel-node/pull/66) · [#64](https://github.com/kernel-node/kernel-node/pull/64) · [#63](https://github.com/kernel-node/kernel-node/pull/63) · [#60](https://github.com/kernel-node/kernel-node/pull/60) · [#56](https://github.com/kernel-node/kernel-node/pull/56) · [#50](https://github.com/kernel-node/kernel-node/pull/50) · [#30](https://github.com/kernel-node/kernel-node/pull/30) | Mar–Jun 2026 |
+| kernel-node | [#78](https://github.com/kernel-node/kernel-node/pull/78) · [#31](https://github.com/kernel-node/kernel-node/pull/31) · [#71](https://github.com/kernel-node/kernel-node/pull/71) · [#66](https://github.com/kernel-node/kernel-node/pull/66) · [#64](https://github.com/kernel-node/kernel-node/pull/64) · [#63](https://github.com/kernel-node/kernel-node/pull/63) · [#60](https://github.com/kernel-node/kernel-node/pull/60) · [#56](https://github.com/kernel-node/kernel-node/pull/56) · [#50](https://github.com/kernel-node/kernel-node/pull/50) · [#30](https://github.com/kernel-node/kernel-node/pull/30) | Mar–Jun 2026 |
 | rust-bitcoinkernel | [#177](https://github.com/sedited/rust-bitcoinkernel/pull/177) · [#164](https://github.com/sedited/rust-bitcoinkernel/pull/164) | Apr–May 2026 |
 | BDK (bdk-ffi) | [#1008](https://github.com/bitcoindevkit/bdk-ffi/pull/1008) | Jun 2026 |
 
@@ -60,10 +61,10 @@ This dashboard is Code Orange's public source for **current PR output**. Histori
 | bdk_wallet | [#422](https://github.com/bitcoindevkit/bdk_wallet/pull/422) | Apr 2026 |
 | esplora-cli | [#3](https://github.com/yancyribbens/esplora-cli/pull/3) | Apr 2026 |
 
-### Chaitika ([@chaitika](https://github.com/chaitika)) - 17 merged (2026)
+### Chaitika ([@chaitika](https://github.com/chaitika)) - 20 merged (2026)
 | Project | PR | Date |
 | --- | --- | --- |
-| shroud (Silent Payments, CypherCommons) | [#122](https://github.com/CypherCommons/shroud/pull/122) · [#121](https://github.com/CypherCommons/shroud/pull/121) · [#120](https://github.com/CypherCommons/shroud/pull/120) · [#114](https://github.com/CypherCommons/shroud/pull/114) · [#108](https://github.com/CypherCommons/shroud/pull/108) · [#103](https://github.com/CypherCommons/shroud/pull/103) · [#102](https://github.com/CypherCommons/shroud/pull/102) · [#101](https://github.com/CypherCommons/shroud/pull/101) · [#93](https://github.com/CypherCommons/shroud/pull/93) · [#89](https://github.com/CypherCommons/shroud/pull/89) · [#86](https://github.com/CypherCommons/shroud/pull/86) · [#83](https://github.com/CypherCommons/shroud/pull/83) · [#79](https://github.com/CypherCommons/shroud/pull/79) · [#76](https://github.com/CypherCommons/shroud/pull/76) · [#73](https://github.com/CypherCommons/shroud/pull/73) · [#67](https://github.com/CypherCommons/shroud/pull/67) | Feb–Jul 2026 |
+| shroud (Silent Payments, CypherCommons) | [#118](https://github.com/CypherCommons/shroud/pull/118) · [#124](https://github.com/CypherCommons/shroud/pull/124) · [#123](https://github.com/CypherCommons/shroud/pull/123) · [#122](https://github.com/CypherCommons/shroud/pull/122) · [#121](https://github.com/CypherCommons/shroud/pull/121) · [#120](https://github.com/CypherCommons/shroud/pull/120) · [#114](https://github.com/CypherCommons/shroud/pull/114) · [#108](https://github.com/CypherCommons/shroud/pull/108) · [#103](https://github.com/CypherCommons/shroud/pull/103) · [#102](https://github.com/CypherCommons/shroud/pull/102) · [#101](https://github.com/CypherCommons/shroud/pull/101) · [#93](https://github.com/CypherCommons/shroud/pull/93) · [#89](https://github.com/CypherCommons/shroud/pull/89) · [#86](https://github.com/CypherCommons/shroud/pull/86) · [#83](https://github.com/CypherCommons/shroud/pull/83) · [#79](https://github.com/CypherCommons/shroud/pull/79) · [#76](https://github.com/CypherCommons/shroud/pull/76) · [#73](https://github.com/CypherCommons/shroud/pull/73) · [#67](https://github.com/CypherCommons/shroud/pull/67) | Feb–Jul 2026 |
 | shroud-indexer | [#100](https://github.com/CypherCommons/shroud-indexer/pull/100) | Mar 2026 |
 
 Plus 2025 Silent Payments work at the Bitshala Incubator: [silent-pay-wallet](https://github.com/Bitshala-Incubator/silent-pay-wallet/pulls?q=involves%3Achaitika), [silent-pay-indexer](https://github.com/Bitshala-Incubator/silent-pay-indexer/pulls?q=involves%3Achaitika), [silent-pay](https://github.com/Bitshala-Incubator/silent-pay/pulls?q=involves%3Achaitika). <!-- TODO: replace with direct PR links -->
@@ -96,19 +97,22 @@ Plus 2025 Silent Payments work at the Bitshala Incubator: [silent-pay-wallet](ht
 
 <!-- TODO: BDK Android WIF sweep tool + BIP375 Go from the 2025 report - add direct links or drop -->
 
-### Muhammad ([@muhahahmad68](https://github.com/muhahahmad68)) - 7 merged
+### Muhammad ([@muhahahmad68](https://github.com/muhahahmad68)) - 8 merged
 | Project | PR | Date |
 | --- | --- | --- |
+| **Bitcoin Core** | [bitcoin/bitcoin #35320](https://github.com/bitcoin/bitcoin/pull/35320) - BIP32 seed-length validation | Jul 2026 |
 | rust-bitcoin | [#6394](https://github.com/rust-bitcoin/rust-bitcoin/pull/6394) | Jun 2026 |
 | **Floresta** | [#1001](https://github.com/getfloresta/Floresta/pull/1001) | Apr 2026 |
 | bdk_wallet | [#487](https://github.com/bitcoindevkit/bdk_wallet/pull/487) · [#476](https://github.com/bitcoindevkit/bdk_wallet/pull/476) · [#471](https://github.com/bitcoindevkit/bdk_wallet/pull/471) | May 2026 |
 | Cove wallet | [#728](https://github.com/bitcoinppl/cove/pull/728) | May 2026 |
 | SeedSigner (kdmukai) | [#12](https://github.com/kdmukai/seedsigner/pull/12) | Apr 2026 |
 
-### Razor ([@RazorBest](https://github.com/RazorBest)) - 4 merged
+### Razor ([@RazorBest](https://github.com/RazorBest)) - 6 merged
 | Project | PR | Date |
 | --- | --- | --- |
 | peer-observer | [#408](https://github.com/peer-observer/peer-observer/pull/408) · [#400](https://github.com/peer-observer/peer-observer/pull/400) · [#393](https://github.com/peer-observer/peer-observer/pull/393) · [#390](https://github.com/peer-observer/peer-observer/pull/390) | Mar–Jun 2026 |
+| corepc | [#547](https://github.com/rust-bitcoin/corepc/pull/547) | Apr 2026 |
+| bitcointranscripts | [#612](https://github.com/bitcointranscripts/bitcointranscripts/pull/612) | Mar 2026 |
 
 ### Arowolo ([@Arowolokehinde](https://github.com/Arowolokehinde)) - 3 merged
 | Project | PR | Date |
@@ -116,17 +120,17 @@ Plus 2025 Silent Payments work at the Bitshala Incubator: [silent-pay-wallet](ht
 | **rust-payjoin (BIP77 Async Payjoin)** | [#1659](https://github.com/payjoin/rust-payjoin/pull/1659) | Jun 2026 |
 | rust-payjoin | [#1498](https://github.com/payjoin/rust-payjoin/pull/1498) · [#1457](https://github.com/payjoin/rust-payjoin/pull/1457) <!-- click-verify merged status before push --> | 2026 |
 
-### Gradale ([@alexgrad42](https://github.com/alexgrad42)) - 3 merged
+### Gradale ([@alexgrad42](https://github.com/alexgrad42)) - 4 merged
 | Project | PR | Date |
 | --- | --- | --- |
 | rust-bitcoin | [#6125](https://github.com/rust-bitcoin/rust-bitcoin/pull/6125) - constant-time Poly1305 equality | 2026 |
-| hex-conservative | [#245](https://github.com/rust-bitcoin/hex-conservative/pull/245) | 2026 |
+| hex-conservative | [#247](https://github.com/rust-bitcoin/hex-conservative/pull/247) · [#245](https://github.com/rust-bitcoin/hex-conservative/pull/245) | 2026 |
 | corepc | [#604](https://github.com/rust-bitcoin/corepc/pull/604) | 2026 |
 
 ### Alex Xie ([@alexxie16](https://github.com/alexxie16)) - 3 merged
 | Project | PR | Date |
 | --- | --- | --- |
-| OpenTollGate (Lightning/ecash) | [Lightning checkout, balance view, OpenWrt packaging](https://github.com/OpenTollGate/tollgate-module-basic-go/pulls?q=involves%3Aalexxie16) <!-- TODO: direct PR links --> | 2026 |
+| OpenTollGate (Lightning/ecash) | [#107](https://github.com/OpenTollGate/tollgate-module-basic-go/pull/107) Lightning checkout + balance view · [#105](https://github.com/OpenTollGate/tollgate-module-basic-go/pull/105) SDK source-build packaging · [#79](https://github.com/OpenTollGate/tollgate-module-basic-go/pull/79) apk packaging | Apr 2026 |
 
 ### Mwihoti ([@mwihoti](https://github.com/mwihoti)) - 1 merged
 | Project | PR | Date |
@@ -136,26 +140,22 @@ Plus 2025 Silent Payments work at the Bitshala Incubator: [silent-pay-wallet](ht
 ### Claimed, not yet linked <!-- TODO: verify or remove -->
 | Developer | Project | Note |
 | --- | --- | --- |
-| Bunny Rolling Dice ([@rollingdice](https://github.com/rollingdice)) | BlueWallet | Bahasa Indonesia translation - add PR link |
+| Bunny Rolling Dice ([@rollingdice](https://github.com/rollingdice)) | BlueWallet | [#315](https://github.com/BlueWallet/BlueWallet/pull/315) Indonesian translation, merged Feb 2019 - predates Code Orange, history only |
 | Psychemist | BDK Android · BIP375 Go | From 2025 report - add direct links or drop |
 
 ---
 
-## Open / Under Review (40+)
+## Open / Under Review (7 linked)
+
+Link states re-verified 26 September 2026 with `tools/verify_dashboard.py`. PRs opened since the July cutoff are not listed yet - see the verifier's "unlisted PRs" report.
 
 | Developer | Project | PR |
 | --- | --- | --- |
-| Muhammad | **Bitcoin Core** | [#35320](https://github.com/bitcoin/bitcoin/pull/35320) |
-| Peter | Bitcoin Core | [#35382](https://github.com/bitcoin/bitcoin/pull/35382) · [#35380](https://github.com/bitcoin/bitcoin/pull/35380) · [#34843](https://github.com/bitcoin/bitcoin/pull/34843) |
-| Peter | kernel-node | [#78](https://github.com/kernel-node/kernel-node/pull/78) · [#68](https://github.com/kernel-node/kernel-node/pull/68) · [#47](https://github.com/kernel-node/kernel-node/pull/47) · [#32](https://github.com/kernel-node/kernel-node/pull/32) · [#31](https://github.com/kernel-node/kernel-node/pull/31) · [#29](https://github.com/kernel-node/kernel-node/pull/29) · [#28](https://github.com/kernel-node/kernel-node/pull/28) |
-| Mwihoti | Saving Satoshi | [#20](https://github.com/saving-satoshi/saving-satoshi-script/pull/20) - note: rust-bitcoin [#5801](https://github.com/rust-bitcoin/rust-bitcoin/pull/5801) was closed unmerged; next attempt in progress |
-| Razor | corepc · bitcointranscripts | [corepc #547](https://github.com/rust-bitcoin/corepc/pull/547) · [#612](https://github.com/bitcointranscripts/bitcointranscripts/pull/612) <!-- click-verify status --> |
-| Gradale | hex-conservative · ldk-node · Core Lightning | [#247](https://github.com/rust-bitcoin/hex-conservative/pull/247) · [ldk-node #905](https://github.com/lightningdevkit/ldk-node/pull/905) · [CLN #9162](https://github.com/ElementsProject/lightning/pull/9162) |
-| Vaan | rust-bitcoin · rust-miniscript · bdk-cli · Bitcoin Dev Project | [#5951](https://github.com/rust-bitcoin/rust-bitcoin/pull/5951) · [#916](https://github.com/rust-bitcoin/rust-miniscript/pull/916) · [#281](https://github.com/bitcoindevkit/bdk-cli/pull/281) · [#240](https://github.com/bitcoindevkit/bdk-cli/pull/240) · [#311](https://github.com/bitcoin-dev-project/bitcoin-dev-project/pull/311) |
-| Chaitika | shroud / shroud-indexer | [#124](https://github.com/CypherCommons/shroud/pull/124) · [#123](https://github.com/CypherCommons/shroud/pull/123) · [#118](https://github.com/CypherCommons/shroud/pull/118) · [#109](https://github.com/CypherCommons/shroud/pull/109) · [#88](https://github.com/CypherCommons/shroud/pull/88) · [#72](https://github.com/CypherCommons/shroud/pull/72) · [#69](https://github.com/CypherCommons/shroud/pull/69) · [#103](https://github.com/CypherCommons/shroud-indexer/pull/103) |
-| Psychemist | BDK devkit-wallet · Mastering Taproot | [#53](https://github.com/bitcoindevkit/devkit-wallet/pull/53) · [#26](https://github.com/aaron-recompile/mastering-taproot/pull/26) · [#25](https://github.com/aaron-recompile/mastering-taproot/pull/25) |
-| Dayvvo | Btrust website · Cashu nutshell · bitcointranscripts | [#25](https://github.com/btrustteam/website/pull/25) · [#550](https://github.com/cashubtc/nutshell/pull/550) · [#470](https://github.com/bitcointranscripts/bitcointranscripts/pull/470) |
-| Muhammad | SeedSigner | [#920](https://github.com/SeedSigner/seedsigner/pull/920) |
+| Peter | kernel-node | [#32](https://github.com/kernel-node/kernel-node/pull/32) |
+| Mwihoti | Saving Satoshi | [#20](https://github.com/saving-satoshi/saving-satoshi-script/pull/20) |
+| Chaitika | shroud-indexer | [#103](https://github.com/CypherCommons/shroud-indexer/pull/103) |
+| Psychemist | BDK devkit-wallet | [#53](https://github.com/bitcoindevkit/devkit-wallet/pull/53) |
+| Dayvvo | Btrust website | [#25](https://github.com/btrustteam/website/pull/25) |
 | Diegodev | gossip_observer · b4os-bitcoin | [#12](https://github.com/jharveyb/gossip_observer/pull/12) · [#5](https://github.com/danielabrozzoni/b4os-bitcoin/pull/5) |
 
 ---
@@ -175,6 +175,13 @@ Four contributors below have verified GitHub handles and are included in the sum
 ---
 
 ## Monthly Tracking Log
+
+### September 2026
+- Re-verified every linked PR with the new `tools/verify_dashboard.py` (now run weekly by CI)
+- 10 PRs listed as open had merged and moved to merged: Bitcoin Core #35380 (Peter) and #35320 (Muhammad), kernel-node #78 and #31, corepc #547, bitcointranscripts #612, hex-conservative #247, shroud #118/#123/#124 (merged total 96 → 106)
+- 23 PRs listed as open had been closed unmerged and were removed from the open list, per the data contract
+- Alex Xie's 3 merged OpenTollGate PRs now have direct links; the BlueWallet translation claim is linked as pre-Code Orange history
+- PRs opened or merged since 12 July are pending the Verifier's scope review (run the tool with `--since 2026-07-12`)
 
 ### July 2026
 * Full verification pass via the GitHub API: every merged PR now carries a direct link
