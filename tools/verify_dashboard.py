@@ -8,7 +8,8 @@ takes minutes instead of clicking 130+ links.
     python3 tools/verify_dashboard.py --out report.md
 
 It checks, without changing README.md:
-  1. every PR in "Merged Pull Requests" is actually merged
+  1. every PR in "Merged Pull Requests" is actually merged, and was not
+     merged by its own author or into the author's own account
   2. every PR in "Open / Under Review" is still open (flags merged -> move,
      closed -> remove)
   3. per-developer "- N merged" headers and the section total match the links
@@ -101,19 +102,27 @@ def parse(text):
     return devs, merged, opened, int(header_total.group(1)) if header_total else None, handles
 
 
+SELF_MERGED = set()  # merged by their own author, or in the author's own account: not countable
+
+
 def fetch_states(tok, prs):
     prs = sorted(set(prs))
     states = {}
     for i in range(0, len(prs), 40):
         chunk = prs[i:i + 40]
         parts = [
-            f'p{j}: repository(owner: "{o}", name: "{r}") {{ pullRequest(number: {n}) {{ state mergedAt url }} }}'
+            f'p{j}: repository(owner: "{o}", name: "{r}") {{ owner {{ login }} pullRequest(number: {n}) {{ state mergedAt url author {{ login }} mergedBy {{ login }} }} }}'
             for j, (o, r, n) in enumerate(chunk)
         ]
         data = graphql(tok, "{ " + " ".join(parts) + " }")
         for j, pr in enumerate(chunk):
             node = (data.get(f"p{j}") or {}).get("pullRequest")
             states[pr] = node["state"] if node else "NOT_FOUND"
+            repo = data.get(f"p{j}") or {}
+            if node and node.get("author") and node.get("mergedBy"):
+                author = node["author"]["login"].lower()
+                if author == node["mergedBy"]["login"].lower() or author == repo["owner"]["login"].lower():
+                    SELF_MERGED.add(pr)
     return states
 
 
@@ -157,6 +166,14 @@ def main():
     for n, pr, st in bad:
         out.append(f"- ❌ {n}: {fmt(pr)} is **{st}**, not merged")
     problems += len(bad)
+
+    selfm = [(n, pr) for n, pr in merged if pr in SELF_MERGED]
+    if selfm:
+        out.append("")
+        out.append(f"## Self-merged or own-repo PRs in the merged section: {len(selfm)} (How We Count excludes these)")
+        for n, pr in selfm:
+            out.append(f"- ❌ {n}: {fmt(pr)}")
+        problems += len(selfm)
 
     out += ["", "## Per-developer counts"]
     recount = 0
