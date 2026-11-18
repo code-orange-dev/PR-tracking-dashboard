@@ -4,7 +4,7 @@ on:
   schedule:
     - cron: "0 2 * * 1"   # Mondays 02:00 UTC, the data contract's weekly check
   pull_request:
-    paths: ["README.md", "tools/**"]
+    paths: ["README.md", "data/**", "tools/**"]
   workflow_dispatch:
     inputs:
       since:
@@ -22,6 +22,8 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
+      - name: README matches data/prs.json
+        run: python3 tools/build.py --check
       - name: Verify every linked PR against GitHub
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
