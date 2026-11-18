@@ -1,0 +1,339 @@
+{
+ "_about": "Source of truth for the Code Orange PR dashboard. README.md and codeorange.dev are built from this file. Edit here, then run: python3 tools/build.py",
+ "checked": "2026-11-18",
+ "contributors": [
+  {
+   "name": "Peter",
+   "github": "pzafonte"
+  },
+  {
+   "name": "Vaan",
+   "github": "va-an"
+  },
+  {
+   "name": "Stonepillar",
+   "github": "Micah-Shallom",
+   "note": "Merged before joining Code Orange (Privacy Track, Oct 2026): listed as history, not program outcomes. Developer fellow from Nov 2026, mentored by a Floresta maintainer."
+  },
+  {
+   "name": "Gradale",
+   "github": "alexgrad42"
+  },
+  {
+   "name": "Dayvvo",
+   "github": "dayvvo",
+   "note": "2024 PRs predate Code Orange cohorts: listed as community-member history, not program outcomes."
+  },
+  {
+   "name": "Arowolo",
+   "github": "Arowolokehinde"
+  },
+  {
+   "name": "Muhammad",
+   "github": "muhahahmad68"
+  },
+  {
+   "name": "Psychemist",
+   "github": "psychemist"
+  },
+  {
+   "name": "Razor",
+   "github": "RazorBest"
+  },
+  {
+   "name": "Diegodev",
+   "github": "0xlaga"
+  },
+  {
+   "name": "Alex Xie",
+   "github": "alexxie16"
+  },
+  {
+   "name": "Mwihoti",
+   "github": "mwihoti"
+  }
+ ],
+ "projects": {
+  "2140-dev/bitcoin-address-book": {
+   "name": "bitcoin-address-book (2140)"
+  },
+  "aaron-recompile/mastering-taproot": {
+   "name": "Mastering Taproot",
+   "education": true
+  },
+  "bitcoin/bitcoin": {
+   "name": "Bitcoin Core",
+   "key": true
+  },
+  "bitcoindevkit/bdk-cli": {
+   "name": "bdk-cli"
+  },
+  "bitcoindevkit/bdk-ffi": {
+   "name": "BDK (bdk-ffi)"
+  },
+  "bitcoindevkit/bdk_wallet": {
+   "name": "bdk_wallet"
+  },
+  "bitcoindevkit/coin-select": {
+   "name": "BDK (coin-select)"
+  },
+  "bitcoinppl/cove": {
+   "name": "Cove wallet"
+  },
+  "bitcointranscripts/bitcointranscripts": {
+   "name": "bitcointranscripts",
+   "education": true
+  },
+  "btrustteam/website": {
+   "name": "Btrust website"
+  },
+  "cashubtc/cashu-ts": {
+   "name": "cashu-ts"
+  },
+  "danielabrozzoni/b4os-bitcoin": {
+   "name": "b4os-bitcoin",
+   "education": true
+  },
+  "fedibtc/fedimint-ui": {
+   "name": "fedimint-ui"
+  },
+  "getAlby/bitcoin-connect": {
+   "name": "Alby bitcoin-connect"
+  },
+  "getAlby/js-sdk": {
+   "name": "Alby js-sdk"
+  },
+  "getfloresta/Floresta": {
+   "name": "Floresta",
+   "key": true
+  },
+  "jharveyb/gossip_observer": {
+   "name": "gossip_observer"
+  },
+  "joinmarket-webui/jam": {
+   "name": "Jam (JoinMarket UI)"
+  },
+  "kdmukai/seedsigner": {
+   "name": "SeedSigner (a maintainer's fork, kdmukai/seedsigner)"
+  },
+  "kernel-node/kernel-node": {
+   "name": "kernel-node"
+  },
+  "LibreriadeSatoshi/Master-Bitcoin-From-Command-Line": {
+   "name": "Master Bitcoin From Command Line (Librería de Satoshi)",
+   "education": true
+  },
+  "lightningdevkit/rust-lightning": {
+   "name": "LDK (rust-lightning)",
+   "key": true
+  },
+  "MostroP2P/mostrix": {
+   "name": "Mostrix (Mostro client)"
+  },
+  "MostroP2P/mostro": {
+   "name": "Mostro (Lightning P2P exchange)"
+  },
+  "OpenTollGate/tollgate-module-basic-go": {
+   "name": "OpenTollGate (Lightning/ecash)"
+  },
+  "payjoin/payjoin.org": {
+   "name": "payjoin.org"
+  },
+  "payjoin/rust-payjoin": {
+   "name": "rust-payjoin",
+   "key": true
+  },
+  "peer-observer/peer-observer": {
+   "name": "peer-observer"
+  },
+  "rust-bitcoin/corepc": {
+   "name": "corepc"
+  },
+  "rust-bitcoin/hex-conservative": {
+   "name": "hex-conservative"
+  },
+  "rust-bitcoin/rust-bitcoin": {
+   "name": "rust-bitcoin"
+  },
+  "saving-satoshi/saving-satoshi-script": {
+   "name": "Saving Satoshi",
+   "education": true
+  },
+  "sedited/rust-bitcoinkernel": {
+   "name": "rust-bitcoinkernel"
+  },
+  "utreexo/utreexod": {
+   "name": "utreexod"
+  },
+  "yancyribbens/esplora-cli": {
+   "name": "esplora-cli"
+  }
+ },
+ "prs": [
+  {"github": "pzafonte", "repo": "bitcoin/bitcoin", "number": 34885, "status": "merged", "month": "Apr 2026"},
+  {"github": "pzafonte", "repo": "bitcoin/bitcoin", "number": 35380, "status": "merged", "month": "Jul 2026", "note": "kernel: expose witness/scriptSig (Silent Payments scanning)"},
+  {"github": "pzafonte", "repo": "rust-bitcoin/rust-bitcoin", "number": 5968, "status": "merged", "month": "Apr 2026"},
+  {"github": "pzafonte", "repo": "rust-bitcoin/rust-bitcoin", "number": 5917, "status": "merged", "month": "Apr 2026"},
+  {"github": "pzafonte", "repo": "kernel-node/kernel-node", "number": 108, "status": "merged", "month": "Oct 2026"},
+  {"github": "pzafonte", "repo": "kernel-node/kernel-node", "number": 107, "status": "merged", "month": "Oct 2026"},
+  {"github": "pzafonte", "repo": "kernel-node/kernel-node", "number": 105, "status": "merged", "month": "Sep 2026"},
+  {"github": "pzafonte", "repo": "kernel-node/kernel-node", "number": 104, "status": "merged", "month": "Sep 2026"},
+  {"github": "pzafonte", "repo": "kernel-node/kernel-node", "number": 103, "status": "merged", "month": "Sep 2026"},
+  {"github": "pzafonte", "repo": "kernel-node/kernel-node", "number": 99, "status": "merged", "month": "Sep 2026"},
+  {"github": "pzafonte", "repo": "kernel-node/kernel-node", "number": 95, "status": "merged", "month": "Aug 2026"},
+  {"github": "pzafonte", "repo": "kernel-node/kernel-node", "number": 94, "status": "merged", "month": "Sep 2026"},
+  {"github": "pzafonte", "repo": "kernel-node/kernel-node", "number": 93, "status": "merged", "month": "Aug 2026"},
+  {"github": "pzafonte", "repo": "kernel-node/kernel-node", "number": 90, "status": "merged", "month": "Jul 2026"},
+  {"github": "pzafonte", "repo": "kernel-node/kernel-node", "number": 88, "status": "merged", "month": "Jul 2026"},
+  {"github": "pzafonte", "repo": "kernel-node/kernel-node", "number": 87, "status": "merged", "month": "Jul 2026"},
+  {"github": "pzafonte", "repo": "kernel-node/kernel-node", "number": 86, "status": "merged", "month": "Jul 2026"},
+  {"github": "pzafonte", "repo": "kernel-node/kernel-node", "number": 85, "status": "merged", "month": "Jul 2026"},
+  {"github": "pzafonte", "repo": "kernel-node/kernel-node", "number": 78, "status": "merged", "month": "Jul 2026"},
+  {"github": "pzafonte", "repo": "kernel-node/kernel-node", "number": 31, "status": "merged", "month": "Sep 2026"},
+  {"github": "pzafonte", "repo": "kernel-node/kernel-node", "number": 71, "status": "merged", "month": "Jun 2026"},
+  {"github": "pzafonte", "repo": "kernel-node/kernel-node", "number": 66, "status": "merged", "month": "Jun 2026"},
+  {"github": "pzafonte", "repo": "kernel-node/kernel-node", "number": 64, "status": "merged", "month": "Jun 2026"},
+  {"github": "pzafonte", "repo": "kernel-node/kernel-node", "number": 63, "status": "merged", "month": "Jun 2026"},
+  {"github": "pzafonte", "repo": "kernel-node/kernel-node", "number": 60, "status": "merged", "month": "Jun 2026"},
+  {"github": "pzafonte", "repo": "kernel-node/kernel-node", "number": 56, "status": "merged", "month": "May 2026"},
+  {"github": "pzafonte", "repo": "kernel-node/kernel-node", "number": 50, "status": "merged", "month": "May 2026"},
+  {"github": "pzafonte", "repo": "kernel-node/kernel-node", "number": 32, "status": "merged", "month": "Oct 2026"},
+  {"github": "pzafonte", "repo": "kernel-node/kernel-node", "number": 30, "status": "merged", "month": "Mar 2026"},
+  {"github": "pzafonte", "repo": "sedited/rust-bitcoinkernel", "number": 213, "status": "merged", "month": "Aug 2026"},
+  {"github": "pzafonte", "repo": "sedited/rust-bitcoinkernel", "number": 177, "status": "merged", "month": "May 2026"},
+  {"github": "pzafonte", "repo": "sedited/rust-bitcoinkernel", "number": 164, "status": "merged", "month": "Apr 2026"},
+  {"github": "pzafonte", "repo": "bitcoindevkit/bdk-ffi", "number": 1008, "status": "merged", "month": "Jun 2026"},
+  {"github": "va-an", "repo": "payjoin/rust-payjoin", "number": 1635, "status": "merged", "month": "Jun 2026"},
+  {"github": "va-an", "repo": "payjoin/rust-payjoin", "number": 1590, "status": "merged", "month": "May 2026"},
+  {"github": "va-an", "repo": "payjoin/rust-payjoin", "number": 1576, "status": "merged", "month": "May 2026"},
+  {"github": "va-an", "repo": "payjoin/rust-payjoin", "number": 1554, "status": "merged", "month": "May 2026"},
+  {"github": "va-an", "repo": "payjoin/rust-payjoin", "number": 1509, "status": "merged", "month": "May 2026"},
+  {"github": "va-an", "repo": "payjoin/payjoin.org", "number": 133, "status": "merged", "month": "May 2026"},
+  {"github": "va-an", "repo": "bitcoindevkit/bdk-cli", "number": 341, "status": "merged", "month": "Oct 2026"},
+  {"github": "va-an", "repo": "bitcoindevkit/bdk-cli", "number": 317, "status": "merged", "month": "Aug 2026"},
+  {"github": "va-an", "repo": "bitcoindevkit/bdk-cli", "number": 315, "status": "merged", "month": "Aug 2026"},
+  {"github": "va-an", "repo": "bitcoindevkit/bdk-cli", "number": 270, "status": "merged", "month": "Apr 2026"},
+  {"github": "va-an", "repo": "bitcoindevkit/bdk-cli", "number": 241, "status": "merged", "month": "Feb 2026"},
+  {"github": "va-an", "repo": "bitcoindevkit/bdk-cli", "number": 237, "status": "merged", "month": "Mar 2026"},
+  {"github": "va-an", "repo": "bitcoindevkit/bdk-cli", "number": 225, "status": "merged", "month": "May 2026"},
+  {"github": "va-an", "repo": "bitcoindevkit/bdk-cli", "number": 224, "status": "merged", "month": "Oct 2025"},
+  {"github": "va-an", "repo": "bitcoindevkit/bdk-cli", "number": 208, "status": "merged", "month": "Sep 2025", "beforeJoining": true},
+  {"github": "va-an", "repo": "rust-bitcoin/rust-bitcoin", "number": 5939, "status": "merged", "month": "Apr 2026"},
+  {"github": "va-an", "repo": "bitcoindevkit/bdk_wallet", "number": 422, "status": "merged", "month": "Apr 2026"},
+  {"github": "va-an", "repo": "yancyribbens/esplora-cli", "number": 3, "status": "merged", "month": "Apr 2026"},
+  {"github": "0xlaga", "repo": "LibreriadeSatoshi/Master-Bitcoin-From-Command-Line", "number": 91, "status": "merged", "month": "Mar 2026"},
+  {"github": "0xlaga", "repo": "LibreriadeSatoshi/Master-Bitcoin-From-Command-Line", "number": 90, "status": "merged", "month": "Mar 2026"},
+  {"github": "0xlaga", "repo": "LibreriadeSatoshi/Master-Bitcoin-From-Command-Line", "number": 89, "status": "merged", "month": "Mar 2026"},
+  {"github": "0xlaga", "repo": "LibreriadeSatoshi/Master-Bitcoin-From-Command-Line", "number": 66, "status": "merged", "month": "Feb 2026"},
+  {"github": "0xlaga", "repo": "LibreriadeSatoshi/Master-Bitcoin-From-Command-Line", "number": 65, "status": "merged", "month": "Mar 2026"},
+  {"github": "dayvvo", "repo": "getAlby/bitcoin-connect", "number": 324, "status": "merged", "month": "Aug 2025"},
+  {"github": "dayvvo", "repo": "getAlby/bitcoin-connect", "number": 294, "status": "merged", "month": "Apr 2025"},
+  {"github": "dayvvo", "repo": "getAlby/bitcoin-connect", "number": 281, "status": "merged", "month": "Feb 2025"},
+  {"github": "dayvvo", "repo": "getAlby/js-sdk", "number": 299, "status": "merged", "month": "Feb 2025"},
+  {"github": "dayvvo", "repo": "cashubtc/cashu-ts", "number": 125, "status": "merged", "month": "May 2024", "beforeJoining": true},
+  {"github": "dayvvo", "repo": "fedibtc/fedimint-ui", "number": 418, "status": "merged", "month": "Apr 2024", "beforeJoining": true},
+  {"github": "dayvvo", "repo": "fedibtc/fedimint-ui", "number": 412, "status": "merged", "month": "Apr 2024", "beforeJoining": true},
+  {"github": "dayvvo", "repo": "fedibtc/fedimint-ui", "number": 411, "status": "merged", "month": "Apr 2024", "beforeJoining": true},
+  {"github": "dayvvo", "repo": "joinmarket-webui/jam", "number": 725, "status": "merged", "month": "Mar 2024", "beforeJoining": true},
+  {"github": "psychemist", "repo": "lightningdevkit/rust-lightning", "number": 4293, "status": "merged", "month": "Jan 2026"},
+  {"github": "psychemist", "repo": "aaron-recompile/mastering-taproot", "number": 31, "status": "merged", "month": "Mar 2026"},
+  {"github": "psychemist", "repo": "aaron-recompile/mastering-taproot", "number": 24, "status": "merged", "month": "Mar 2026"},
+  {"github": "psychemist", "repo": "aaron-recompile/mastering-taproot", "number": 23, "status": "merged", "month": "Feb 2026"},
+  {"github": "psychemist", "repo": "aaron-recompile/mastering-taproot", "number": 22, "status": "merged", "month": "Mar 2026"},
+  {"github": "psychemist", "repo": "bitcointranscripts/bitcointranscripts", "number": 615, "status": "merged", "month": "Mar 2026"},
+  {"github": "psychemist", "repo": "saving-satoshi/saving-satoshi-script", "number": 19, "status": "merged", "month": "Apr 2026"},
+  {"github": "muhahahmad68", "repo": "bitcoin/bitcoin", "number": 35320, "status": "merged", "month": "Jul 2026", "note": "BIP32 seed-length validation"},
+  {"github": "muhahahmad68", "repo": "rust-bitcoin/rust-bitcoin", "number": 6394, "status": "merged", "month": "Jun 2026"},
+  {"github": "muhahahmad68", "repo": "getfloresta/Floresta", "number": 1001, "status": "merged", "month": "Apr 2026"},
+  {"github": "muhahahmad68", "repo": "bitcoindevkit/bdk_wallet", "number": 487, "status": "merged", "month": "May 2026"},
+  {"github": "muhahahmad68", "repo": "bitcoindevkit/bdk_wallet", "number": 476, "status": "merged", "month": "May 2026"},
+  {"github": "muhahahmad68", "repo": "bitcoindevkit/bdk_wallet", "number": 471, "status": "merged", "month": "May 2026"},
+  {"github": "muhahahmad68", "repo": "bitcoinppl/cove", "number": 728, "status": "merged", "month": "May 2026"},
+  {"github": "muhahahmad68", "repo": "kdmukai/seedsigner", "number": 12, "status": "merged", "month": "Apr 2026"},
+  {"github": "RazorBest", "repo": "peer-observer/peer-observer", "number": 408, "status": "merged", "month": "Apr 2026"},
+  {"github": "RazorBest", "repo": "peer-observer/peer-observer", "number": 400, "status": "merged", "month": "Jun 2026"},
+  {"github": "RazorBest", "repo": "peer-observer/peer-observer", "number": 393, "status": "merged", "month": "Mar 2026"},
+  {"github": "RazorBest", "repo": "peer-observer/peer-observer", "number": 390, "status": "merged", "month": "Mar 2026"},
+  {"github": "RazorBest", "repo": "rust-bitcoin/corepc", "number": 547, "status": "merged", "month": "Apr 2026"},
+  {"github": "RazorBest", "repo": "bitcointranscripts/bitcointranscripts", "number": 612, "status": "merged", "month": "Mar 2026"},
+  {"github": "Arowolokehinde", "repo": "MostroP2P/mostro", "number": 848, "status": "merged", "month": "Aug 2026"},
+  {"github": "Arowolokehinde", "repo": "MostroP2P/mostrix", "number": 101, "status": "merged", "month": "Jul 2026"},
+  {"github": "Arowolokehinde", "repo": "MostroP2P/mostrix", "number": 95, "status": "merged", "month": "Jul 2026"},
+  {"github": "Arowolokehinde", "repo": "payjoin/rust-payjoin", "number": 1659, "status": "merged", "month": "Jun 2026"},
+  {"github": "Arowolokehinde", "repo": "payjoin/rust-payjoin", "number": 1498, "status": "merged", "month": "Apr 2026"},
+  {"github": "Arowolokehinde", "repo": "payjoin/rust-payjoin", "number": 1457, "status": "merged", "month": "Apr 2026"},
+  {"github": "Arowolokehinde", "repo": "bitcoindevkit/bdk-ffi", "number": 1119, "status": "merged", "month": "Oct 2026", "note": "esplora client timeout"},
+  {"github": "Arowolokehinde", "repo": "bitcoindevkit/coin-select", "number": 71, "status": "merged", "month": "Oct 2026"},
+  {"github": "alexgrad42", "repo": "rust-bitcoin/rust-bitcoin", "number": 6387, "status": "merged", "month": "Jul 2026"},
+  {"github": "alexgrad42", "repo": "rust-bitcoin/rust-bitcoin", "number": 6384, "status": "merged", "month": "Jun 2026", "note": "MedianTimePast off-by-one fix"},
+  {"github": "alexgrad42", "repo": "rust-bitcoin/rust-bitcoin", "number": 6382, "status": "merged", "month": "Jun 2026"},
+  {"github": "alexgrad42", "repo": "rust-bitcoin/rust-bitcoin", "number": 6125, "status": "merged", "month": "May 2026", "note": "constant-time Poly1305 equality"},
+  {"github": "alexgrad42", "repo": "rust-bitcoin/hex-conservative", "number": 250, "status": "merged", "month": "Jul 2026"},
+  {"github": "alexgrad42", "repo": "rust-bitcoin/hex-conservative", "number": 247, "status": "merged", "month": "May 2026"},
+  {"github": "alexgrad42", "repo": "rust-bitcoin/hex-conservative", "number": 245, "status": "merged", "month": "May 2026"},
+  {"github": "alexgrad42", "repo": "rust-bitcoin/corepc", "number": 614, "status": "merged", "month": "Jun 2026"},
+  {"github": "alexgrad42", "repo": "rust-bitcoin/corepc", "number": 604, "status": "merged", "month": "May 2026"},
+  {"github": "alexgrad42", "repo": "aaron-recompile/mastering-taproot", "number": 12, "status": "merged", "month": "Feb 2026"},
+  {"github": "alexxie16", "repo": "OpenTollGate/tollgate-module-basic-go", "number": 107, "status": "merged", "month": "Apr 2026", "note": "Lightning checkout + balance view"},
+  {"github": "alexxie16", "repo": "OpenTollGate/tollgate-module-basic-go", "number": 105, "status": "merged", "month": "Apr 2026", "note": "SDK source-build packaging"},
+  {"github": "alexxie16", "repo": "OpenTollGate/tollgate-module-basic-go", "number": 106, "status": "merged", "month": "Jun 2026", "note": "evict expired timed sessions"},
+  {"github": "alexxie16", "repo": "OpenTollGate/tollgate-module-basic-go", "number": 79, "status": "merged", "month": "Apr 2026", "note": "apk packaging"},
+  {"github": "Micah-Shallom", "repo": "getfloresta/Floresta", "number": 1362, "status": "merged", "month": "Oct 2026"},
+  {"github": "Micah-Shallom", "repo": "getfloresta/Floresta", "number": 1348, "status": "merged", "month": "Sep 2026", "beforeJoining": true},
+  {"github": "Micah-Shallom", "repo": "getfloresta/Floresta", "number": 1220, "status": "merged", "month": "Aug 2026", "note": "chain-store warnings in getblockchaininfo", "beforeJoining": true},
+  {"github": "Micah-Shallom", "repo": "getfloresta/Floresta", "number": 1128, "status": "merged", "month": "Jun 2026", "beforeJoining": true},
+  {"github": "Micah-Shallom", "repo": "getfloresta/Floresta", "number": 1071, "status": "merged", "month": "May 2026", "note": "getdeploymentinfo", "beforeJoining": true},
+  {"github": "Micah-Shallom", "repo": "getfloresta/Floresta", "number": 1055, "status": "merged", "month": "Sep 2026", "beforeJoining": true},
+  {"github": "Micah-Shallom", "repo": "getfloresta/Floresta", "number": 973, "status": "merged", "month": "May 2026", "note": "getdifficulty", "beforeJoining": true},
+  {"github": "Micah-Shallom", "repo": "getfloresta/Floresta", "number": 948, "status": "merged", "month": "Jun 2026", "beforeJoining": true},
+  {"github": "Micah-Shallom", "repo": "getfloresta/Floresta", "number": 913, "status": "merged", "month": "Apr 2026", "note": "getconnectioncount", "beforeJoining": true},
+  {"github": "Micah-Shallom", "repo": "getfloresta/Floresta", "number": 879, "status": "merged", "month": "May 2026", "beforeJoining": true},
+  {"github": "Micah-Shallom", "repo": "rust-bitcoin/rust-bitcoin", "number": 6740, "status": "merged", "month": "Aug 2026", "beforeJoining": true},
+  {"github": "mwihoti", "repo": "payjoin/rust-payjoin", "number": 1589, "status": "merged", "month": "May 2026"},
+  {"github": "pzafonte", "repo": "kernel-node/kernel-node", "number": 117, "status": "merged", "month": "Oct 2026", "firstSeen": "2026-11-18"},
+  {"github": "mwihoti", "repo": "saving-satoshi/saving-satoshi-script", "number": 20, "status": "open", "month": "May 2026"},
+  {"github": "dayvvo", "repo": "btrustteam/website", "number": 25, "status": "open", "month": "May 2025"},
+  {"github": "Arowolokehinde", "repo": "bitcoindevkit/bdk_wallet", "number": 571, "status": "open", "month": "Sep 2026"},
+  {"github": "Arowolokehinde", "repo": "bitcoindevkit/bdk_wallet", "number": 537, "status": "open", "month": "Aug 2026"},
+  {"github": "Arowolokehinde", "repo": "bitcoindevkit/bdk-ffi", "number": 1138, "status": "open", "month": "Oct 2026"},
+  {"github": "Arowolokehinde", "repo": "bitcoindevkit/bdk-ffi", "number": 1135, "status": "open", "month": "Sep 2026"},
+  {"github": "Arowolokehinde", "repo": "bitcoindevkit/bdk-ffi", "number": 1114, "status": "open", "month": "Sep 2026"},
+  {"github": "Arowolokehinde", "repo": "bitcoindevkit/bdk-ffi", "number": 1102, "status": "open", "month": "Aug 2026"},
+  {"github": "Arowolokehinde", "repo": "MostroP2P/mostro", "number": 896, "status": "open", "month": "Aug 2026"},
+  {"github": "muhahahmad68", "repo": "bitcoindevkit/bdk_wallet", "number": 603, "status": "open", "month": "Oct 2026"},
+  {"github": "muhahahmad68", "repo": "bitcoindevkit/bdk_wallet", "number": 528, "status": "open", "month": "Aug 2026"},
+  {"github": "0xlaga", "repo": "jharveyb/gossip_observer", "number": 12, "status": "open", "month": "Apr 2026"},
+  {"github": "0xlaga", "repo": "danielabrozzoni/b4os-bitcoin", "number": 5, "status": "open", "month": "Feb 2026"},
+  {"github": "va-an", "repo": "bitcoindevkit/bdk-cli", "number": 368, "status": "open", "month": "Oct 2026"},
+  {"github": "Micah-Shallom", "repo": "getfloresta/Floresta", "number": 1404, "status": "merged", "month": "Nov 2026", "note": "log to a file by default", "firstSeen": "2026-11-18"},
+  {"github": "Micah-Shallom", "repo": "getfloresta/Floresta", "number": 1360, "status": "open", "month": "Oct 2026"},
+  {"github": "Micah-Shallom", "repo": "getfloresta/Floresta", "number": 1249, "status": "open", "month": "Aug 2026"},
+  {"github": "Micah-Shallom", "repo": "getfloresta/Floresta", "number": 1105, "status": "merged", "month": "Nov 2026", "note": "JSON-RPC authentication", "firstSeen": "2026-11-18"},
+  {"github": "Micah-Shallom", "repo": "getfloresta/Floresta", "number": 926, "status": "open", "month": "Apr 2026", "note": "BanMan"},
+  {"github": "Micah-Shallom", "repo": "getfloresta/Floresta", "number": 899, "status": "open", "month": "Mar 2026"},
+  {"github": "Micah-Shallom", "repo": "getfloresta/Floresta", "number": 872, "status": "open", "month": "Mar 2026"},
+  {"github": "pzafonte", "repo": "kernel-node/kernel-node", "number": 118, "status": "merged", "month": "Nov 2026", "firstSeen": "2026-11-18"},
+  {"github": "pzafonte", "repo": "kernel-node/kernel-node", "number": 119, "status": "merged", "month": "Nov 2026", "firstSeen": "2026-11-18"},
+  {"github": "pzafonte", "repo": "kernel-node/kernel-node", "number": 121, "status": "merged", "month": "Nov 2026", "firstSeen": "2026-11-18"},
+  {"github": "pzafonte", "repo": "kernel-node/kernel-node", "number": 122, "status": "merged", "month": "Nov 2026", "firstSeen": "2026-11-18"},
+  {"github": "pzafonte", "repo": "2140-dev/bitcoin-address-book", "number": 9, "status": "merged", "month": "Oct 2026", "firstSeen": "2026-11-18"},
+  {"github": "Arowolokehinde", "repo": "bitcoindevkit/bdk-ffi", "number": 1153, "status": "merged", "month": "Nov 2026", "firstSeen": "2026-11-18"},
+  {"github": "mwihoti", "repo": "payjoin/rust-payjoin", "number": 2060, "status": "merged", "month": "Nov 2026", "firstSeen": "2026-11-18"},
+  {"github": "pzafonte", "repo": "bitcoin/bitcoin", "number": 36858, "status": "open", "month": "Nov 2026", "firstSeen": "2026-11-18"},
+  {"github": "pzafonte", "repo": "bitcoin/bitcoin", "number": 36857, "status": "open", "month": "Nov 2026", "note": "kernel: prune locks and target pruning", "firstSeen": "2026-11-18"},
+  {"github": "pzafonte", "repo": "bitcoin/bitcoin", "number": 36856, "status": "open", "month": "Nov 2026", "note": "kernel: manual pruning", "firstSeen": "2026-11-18"},
+  {"github": "pzafonte", "repo": "bitcoin/bitcoin", "number": 36854, "status": "open", "month": "Nov 2026", "firstSeen": "2026-11-18"},
+  {"github": "pzafonte", "repo": "bitcoin/bitcoin", "number": 36799, "status": "open", "month": "Nov 2026", "firstSeen": "2026-11-18"},
+  {"github": "pzafonte", "repo": "bitcoin/bitcoin", "number": 36739, "status": "open", "month": "Nov 2026", "firstSeen": "2026-11-18"},
+  {"github": "pzafonte", "repo": "bitcoin/bitcoin", "number": 36738, "status": "open", "month": "Nov 2026", "firstSeen": "2026-11-18"},
+  {"github": "pzafonte", "repo": "bitcoin/bitcoin", "number": 36735, "status": "open", "month": "Nov 2026", "firstSeen": "2026-11-18"},
+  {"github": "pzafonte", "repo": "kernel-node/kernel-node", "number": 123, "status": "open", "month": "Nov 2026", "firstSeen": "2026-11-18"},
+  {"github": "pzafonte", "repo": "kernel-node/kernel-node", "number": 124, "status": "open", "month": "Nov 2026", "firstSeen": "2026-11-18"},
+  {"github": "pzafonte", "repo": "kernel-node/kernel-node", "number": 125, "status": "open", "month": "Nov 2026", "firstSeen": "2026-11-18"},
+  {"github": "pzafonte", "repo": "kernel-node/kernel-node", "number": 126, "status": "open", "month": "Nov 2026", "firstSeen": "2026-11-18"},
+  {"github": "psychemist", "repo": "bitcoin/bitcoin", "number": 36825, "status": "open", "month": "Nov 2026", "note": "wallet: fix migration with watch-only transactions", "firstSeen": "2026-11-18"},
+  {"github": "Arowolokehinde", "repo": "bitcoindevkit/bdk_wallet", "number": 622, "status": "open", "month": "Nov 2026", "firstSeen": "2026-11-18"},
+  {"github": "Micah-Shallom", "repo": "getfloresta/Floresta", "number": 1447, "status": "open", "month": "Oct 2026", "firstSeen": "2026-11-18"},
+  {"github": "Micah-Shallom", "repo": "utreexo/utreexod", "number": 453, "status": "open", "month": "Oct 2026", "firstSeen": "2026-11-18"}
+ ]
+}
