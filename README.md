@@ -2,19 +2,19 @@
 
 > **Tracking every pull request by Code Orange community members to Bitcoin open-source projects.**
 >
-> Last updated: 29 October 2026 | Link states checked weekly by CI (`tools/verify_dashboard.py`)
+> Last updated: 18 November 2026 | Link states checked weekly by CI (`tools/verify_dashboard.py`)
 
 ---
 
 ## Summary
 
-Counted from the links below on 29 October 2026. Every number here is a count of linked PRs, nothing else.
+Counted from the links below on 18 November 2026. Every number here is a count of linked PRs, nothing else.
 
 | Metric | Count |
 | --- | --- |
-| **Merged PRs (each linked below)** | **120** (16 of these predate the author joining Code Orange, marked *) |
-| **Open PRs (each linked below)** | **24** |
-| **Distinct repositories with a merged PR** | **30** |
+| **Merged PRs (each linked below)** | **130** (16 of these predate the author joining Code Orange, marked *) |
+| **Open PRs (each linked below)** | **35** |
+| **Distinct repositories with a merged PR** | **31** |
 | **Contributors with a merged PR** | **12** |
 
 A PR listed here is the work of its author. Listing it records that the author is part of the Code Orange community; it doesn't claim Code Orange wrote, directed or caused it.
@@ -27,7 +27,7 @@ This dashboard is Code Orange's public source for **current PR output**. Histori
 
 | Field | Rule |
 | --- | --- |
-| **Reporting cutoff** | Link-level verification through **29 October 2026**. |
+| **Reporting cutoff** | Link-level verification through **18 November 2026**. |
 | **Attribution** | Count only in-scope Bitcoin OSS PRs with a direct link. PRs made before a developer joined Code Orange may be listed as history, but are excluded from program-outcome claims. |
 | **PR state** | *Merged* means accepted upstream. *Open / under review* means submitted and neither merged nor closed at the reporting cutoff. Closed-unmerged PRs are not counted as open. |
 | **Metric owner** | The named Code Orange **PR Verifier**, recorded in the weekly operating scorecard. |
@@ -35,16 +35,17 @@ This dashboard is Code Orange's public source for **current PR output**. Histori
 
 ---
 
-## Merged Pull Requests by Developer (120)
+## Merged Pull Requests by Developer (130)
 
-### Peter ([@pzafonte](https://github.com/pzafonte)) - 33 merged
+### Peter ([@pzafonte](https://github.com/pzafonte)) - 39 merged
 | Project | PR | Date |
 | --- | --- | --- |
 | **Bitcoin Core** | [bitcoin/bitcoin #34885](https://github.com/bitcoin/bitcoin/pull/34885) | Apr 2026 |
 | **Bitcoin Core** | [bitcoin/bitcoin #35380](https://github.com/bitcoin/bitcoin/pull/35380) - kernel: expose witness/scriptSig (Silent Payments scanning) | Jul 2026 |
 | rust-bitcoin | [#5968](https://github.com/rust-bitcoin/rust-bitcoin/pull/5968) | Apr 2026 |
 | rust-bitcoin | [#5917](https://github.com/rust-bitcoin/rust-bitcoin/pull/5917) | Apr 2026 |
-| kernel-node | [#108](https://github.com/kernel-node/kernel-node/pull/108) · [#107](https://github.com/kernel-node/kernel-node/pull/107) · [#105](https://github.com/kernel-node/kernel-node/pull/105) · [#104](https://github.com/kernel-node/kernel-node/pull/104) · [#103](https://github.com/kernel-node/kernel-node/pull/103) · [#99](https://github.com/kernel-node/kernel-node/pull/99) · [#95](https://github.com/kernel-node/kernel-node/pull/95) · [#94](https://github.com/kernel-node/kernel-node/pull/94) · [#93](https://github.com/kernel-node/kernel-node/pull/93) · [#90](https://github.com/kernel-node/kernel-node/pull/90) · [#88](https://github.com/kernel-node/kernel-node/pull/88) · [#87](https://github.com/kernel-node/kernel-node/pull/87) · [#86](https://github.com/kernel-node/kernel-node/pull/86) · [#85](https://github.com/kernel-node/kernel-node/pull/85) · [#78](https://github.com/kernel-node/kernel-node/pull/78) · [#31](https://github.com/kernel-node/kernel-node/pull/31) · [#71](https://github.com/kernel-node/kernel-node/pull/71) · [#66](https://github.com/kernel-node/kernel-node/pull/66) · [#64](https://github.com/kernel-node/kernel-node/pull/64) · [#63](https://github.com/kernel-node/kernel-node/pull/63) · [#60](https://github.com/kernel-node/kernel-node/pull/60) · [#56](https://github.com/kernel-node/kernel-node/pull/56) · [#50](https://github.com/kernel-node/kernel-node/pull/50) · [#32](https://github.com/kernel-node/kernel-node/pull/32) · [#30](https://github.com/kernel-node/kernel-node/pull/30) | Mar–Oct 2026 |
+| kernel-node | [#122](https://github.com/kernel-node/kernel-node/pull/122) · [#121](https://github.com/kernel-node/kernel-node/pull/121) · [#119](https://github.com/kernel-node/kernel-node/pull/119) · [#118](https://github.com/kernel-node/kernel-node/pull/118) · [#117](https://github.com/kernel-node/kernel-node/pull/117) · [#108](https://github.com/kernel-node/kernel-node/pull/108) · [#107](https://github.com/kernel-node/kernel-node/pull/107) · [#105](https://github.com/kernel-node/kernel-node/pull/105) · [#104](https://github.com/kernel-node/kernel-node/pull/104) · [#103](https://github.com/kernel-node/kernel-node/pull/103) · [#99](https://github.com/kernel-node/kernel-node/pull/99) · [#95](https://github.com/kernel-node/kernel-node/pull/95) · [#94](https://github.com/kernel-node/kernel-node/pull/94) · [#93](https://github.com/kernel-node/kernel-node/pull/93) · [#90](https://github.com/kernel-node/kernel-node/pull/90) · [#88](https://github.com/kernel-node/kernel-node/pull/88) · [#87](https://github.com/kernel-node/kernel-node/pull/87) · [#86](https://github.com/kernel-node/kernel-node/pull/86) · [#85](https://github.com/kernel-node/kernel-node/pull/85) · [#78](https://github.com/kernel-node/kernel-node/pull/78) · [#31](https://github.com/kernel-node/kernel-node/pull/31) · [#71](https://github.com/kernel-node/kernel-node/pull/71) · [#66](https://github.com/kernel-node/kernel-node/pull/66) · [#64](https://github.com/kernel-node/kernel-node/pull/64) · [#63](https://github.com/kernel-node/kernel-node/pull/63) · [#60](https://github.com/kernel-node/kernel-node/pull/60) · [#56](https://github.com/kernel-node/kernel-node/pull/56) · [#50](https://github.com/kernel-node/kernel-node/pull/50) · [#32](https://github.com/kernel-node/kernel-node/pull/32) · [#30](https://github.com/kernel-node/kernel-node/pull/30) | Mar–Nov 2026 |
+| bitcoin-address-book (2140) | [#9](https://github.com/2140-dev/bitcoin-address-book/pull/9) | Oct 2026 |
 | rust-bitcoinkernel | [#213](https://github.com/sedited/rust-bitcoinkernel/pull/213) · [#177](https://github.com/sedited/rust-bitcoinkernel/pull/177) · [#164](https://github.com/sedited/rust-bitcoinkernel/pull/164) | Apr–May 2026 |
 | BDK (bdk-ffi) | [#1008](https://github.com/bitcoindevkit/bdk-ffi/pull/1008) | Jun 2026 |
 
@@ -100,13 +101,13 @@ This dashboard is Code Orange's public source for **current PR output**. Histori
 | corepc | [#547](https://github.com/rust-bitcoin/corepc/pull/547) | Apr 2026 |
 | bitcointranscripts | [#612](https://github.com/bitcointranscripts/bitcointranscripts/pull/612) | Mar 2026 |
 
-### Arowolo ([@Arowolokehinde](https://github.com/Arowolokehinde)) - 8 merged
+### Arowolo ([@Arowolokehinde](https://github.com/Arowolokehinde)) - 9 merged
 | Project | PR | Date |
 | --- | --- | --- |
 | Mostro (Lightning P2P exchange) | [#848](https://github.com/MostroP2P/mostro/pull/848) · mostrix [#101](https://github.com/MostroP2P/mostrix/pull/101) · [#95](https://github.com/MostroP2P/mostrix/pull/95) | Jul–Aug 2026 |
 | **rust-payjoin (BIP77 Async Payjoin)** | [#1659](https://github.com/payjoin/rust-payjoin/pull/1659) | Jun 2026 |
 | rust-payjoin | [#1498](https://github.com/payjoin/rust-payjoin/pull/1498) · [#1457](https://github.com/payjoin/rust-payjoin/pull/1457) | Mar–Apr 2026 |
-| BDK (bdk-ffi · coin-select) | bdk-ffi [#1119](https://github.com/bitcoindevkit/bdk-ffi/pull/1119) esplora client timeout · coin-select [#71](https://github.com/bitcoindevkit/coin-select/pull/71) | Oct 2026 |
+| BDK (bdk-ffi · coin-select) | bdk-ffi [#1153](https://github.com/bitcoindevkit/bdk-ffi/pull/1153) · [#1119](https://github.com/bitcoindevkit/bdk-ffi/pull/1119) esplora client timeout · coin-select [#71](https://github.com/bitcoindevkit/coin-select/pull/71) | Oct–Nov 2026 |
 
 ### Gradale ([@alexgrad42](https://github.com/alexgrad42)) - 10 merged
 | Project | PR | Date |
@@ -121,41 +122,44 @@ This dashboard is Code Orange's public source for **current PR output**. Histori
 | --- | --- | --- |
 | OpenTollGate (Lightning/ecash) | [#107](https://github.com/OpenTollGate/tollgate-module-basic-go/pull/107) Lightning checkout + balance view · [#105](https://github.com/OpenTollGate/tollgate-module-basic-go/pull/105) SDK source-build packaging · [#106](https://github.com/OpenTollGate/tollgate-module-basic-go/pull/106) evict expired timed sessions · [#79](https://github.com/OpenTollGate/tollgate-module-basic-go/pull/79) apk packaging | Apr 2026 |
 
-### Stonepillar ([@Micah-Shallom](https://github.com/Micah-Shallom)) - 11 merged
+### Stonepillar ([@Micah-Shallom](https://github.com/Micah-Shallom)) - 13 merged
 | Project | PR | Date |
 | --- | --- | --- |
-| **Floresta** | [#1362](https://github.com/getfloresta/Floresta/pull/1362) | Oct 2026 |
+| **Floresta** | [#1105](https://github.com/getfloresta/Floresta/pull/1105) JSON-RPC authentication · [#1404](https://github.com/getfloresta/Floresta/pull/1404) log to a file by default · [#1362](https://github.com/getfloresta/Floresta/pull/1362) | Oct–Nov 2026 |
 | **Floresta** | [#1348](https://github.com/getfloresta/Floresta/pull/1348)* · [#1220](https://github.com/getfloresta/Floresta/pull/1220)* chain-store warnings in getblockchaininfo · [#1128](https://github.com/getfloresta/Floresta/pull/1128)* · [#1071](https://github.com/getfloresta/Floresta/pull/1071)* getdeploymentinfo · [#1055](https://github.com/getfloresta/Floresta/pull/1055)* · [#973](https://github.com/getfloresta/Floresta/pull/973)* getdifficulty · [#948](https://github.com/getfloresta/Floresta/pull/948)* · [#913](https://github.com/getfloresta/Floresta/pull/913)* getconnectioncount · [#879](https://github.com/getfloresta/Floresta/pull/879)* | Mar–Sep 2026 |
 | rust-bitcoin | [#6740](https://github.com/rust-bitcoin/rust-bitcoin/pull/6740)* | Aug 2026 |
 
 *Merged before joining Code Orange (Privacy Track, Oct 2026) - listed as history, not program outcomes. Developer fellow from Nov 2026, mentored by a Floresta maintainer.
 
-### Mwihoti ([@mwihoti](https://github.com/mwihoti)) - 1 merged
+### Mwihoti ([@mwihoti](https://github.com/mwihoti)) - 2 merged
 | Project | PR | Date |
 | --- | --- | --- |
-| **rust-payjoin** | [#1589](https://github.com/payjoin/rust-payjoin/pull/1589) | May 2026 |
+| **rust-payjoin** | [#2060](https://github.com/payjoin/rust-payjoin/pull/2060) · [#1589](https://github.com/payjoin/rust-payjoin/pull/1589) | May–Nov 2026 |
 
 ---
 
-## Open / Under Review (24)
+## Open / Under Review (35)
 
-Link states re-checked 29 October 2026 from each project's git history and GitHub pull refs (merged = the PR's commits are on the default branch; open = GitHub still serves the PR's merge ref).
+Link states re-checked 18 November 2026 against GitHub's PR search, with git history used for bdk-cli.
 
 | Developer | Project | PR |
 | --- | --- | --- |
-| Peter | kernel-node | [#117](https://github.com/kernel-node/kernel-node/pull/117) |
+| Peter | Bitcoin Core · kernel-node | bitcoin [#36858](https://github.com/bitcoin/bitcoin/pull/36858) · [#36857](https://github.com/bitcoin/bitcoin/pull/36857) kernel: prune locks and target pruning · [#36856](https://github.com/bitcoin/bitcoin/pull/36856) kernel: manual pruning · [#36854](https://github.com/bitcoin/bitcoin/pull/36854) · [#36799](https://github.com/bitcoin/bitcoin/pull/36799) · [#36739](https://github.com/bitcoin/bitcoin/pull/36739) · [#36738](https://github.com/bitcoin/bitcoin/pull/36738) · [#36735](https://github.com/bitcoin/bitcoin/pull/36735) · kernel-node [#126](https://github.com/kernel-node/kernel-node/pull/126) · [#125](https://github.com/kernel-node/kernel-node/pull/125) · [#124](https://github.com/kernel-node/kernel-node/pull/124) · [#123](https://github.com/kernel-node/kernel-node/pull/123) |
 | Mwihoti | Saving Satoshi | [#20](https://github.com/saving-satoshi/saving-satoshi-script/pull/20) |
-| Psychemist | BDK devkit-wallet | [#53](https://github.com/bitcoindevkit/devkit-wallet/pull/53) |
+| Psychemist | Bitcoin Core | [#36825](https://github.com/bitcoin/bitcoin/pull/36825) wallet: fix migration with watch-only transactions |
 | Dayvvo | Btrust website | [#25](https://github.com/btrustteam/website/pull/25) |
-| Arowolo | BDK (bdk_wallet · bdk-ffi) · Mostro | bdk_wallet [#571](https://github.com/bitcoindevkit/bdk_wallet/pull/571) · [#537](https://github.com/bitcoindevkit/bdk_wallet/pull/537) · bdk-ffi [#1138](https://github.com/bitcoindevkit/bdk-ffi/pull/1138) · [#1135](https://github.com/bitcoindevkit/bdk-ffi/pull/1135) · [#1114](https://github.com/bitcoindevkit/bdk-ffi/pull/1114) · [#1102](https://github.com/bitcoindevkit/bdk-ffi/pull/1102) · mostro [#896](https://github.com/MostroP2P/mostro/pull/896) |
+| Arowolo | BDK (bdk_wallet · bdk-ffi) · Mostro | bdk_wallet [#622](https://github.com/bitcoindevkit/bdk_wallet/pull/622) · [#571](https://github.com/bitcoindevkit/bdk_wallet/pull/571) · [#537](https://github.com/bitcoindevkit/bdk_wallet/pull/537) · bdk-ffi [#1138](https://github.com/bitcoindevkit/bdk-ffi/pull/1138) · [#1135](https://github.com/bitcoindevkit/bdk-ffi/pull/1135) · [#1114](https://github.com/bitcoindevkit/bdk-ffi/pull/1114) · [#1102](https://github.com/bitcoindevkit/bdk-ffi/pull/1102) · mostro [#896](https://github.com/MostroP2P/mostro/pull/896) |
 | Muhammad | bdk_wallet | [#603](https://github.com/bitcoindevkit/bdk_wallet/pull/603) · [#528](https://github.com/bitcoindevkit/bdk_wallet/pull/528) |
 | Diegodev | gossip_observer · b4os-bitcoin | [#12](https://github.com/jharveyb/gossip_observer/pull/12) · [#5](https://github.com/danielabrozzoni/b4os-bitcoin/pull/5) |
 | Vaan | bdk-cli | [#368](https://github.com/bitcoindevkit/bdk-cli/pull/368) |
-| Stonepillar | Floresta | [#1404](https://github.com/getfloresta/Floresta/pull/1404) · [#1360](https://github.com/getfloresta/Floresta/pull/1360) · [#1249](https://github.com/getfloresta/Floresta/pull/1249) · [#1215](https://github.com/getfloresta/Floresta/pull/1215) · [#1105](https://github.com/getfloresta/Floresta/pull/1105) JSON-RPC auth tests · [#926](https://github.com/getfloresta/Floresta/pull/926) BanMan · [#899](https://github.com/getfloresta/Floresta/pull/899) · [#872](https://github.com/getfloresta/Floresta/pull/872) |
+| Stonepillar | Floresta · utreexod | [#1447](https://github.com/getfloresta/Floresta/pull/1447) · [#1360](https://github.com/getfloresta/Floresta/pull/1360) · [#1249](https://github.com/getfloresta/Floresta/pull/1249) · [#926](https://github.com/getfloresta/Floresta/pull/926) BanMan · [#899](https://github.com/getfloresta/Floresta/pull/899) · [#872](https://github.com/getfloresta/Floresta/pull/872) · utreexod [#453](https://github.com/utreexo/utreexod/pull/453) |
 
 ---
 
 ## Change Log
+
+### November 2026
+- 18 Nov: recounted every listed developer's PRs. Newly merged: Peter kernel-node #117 (moved from open), #118, #119, #121, #122 and bitcoin-address-book #9 (new project); Arowolo bdk-ffi #1153; Stonepillar Floresta #1105 and #1404 (moved from open); Mwihoti rust-payjoin #2060. Removed from open (closed without merging): devkit-wallet #53, Floresta #1215. New open PRs added, including 8 Bitcoin Core PRs by Peter and 1 by Psychemist. Vaan's bdk-cli #386 and #389 are not counted because he merged them himself as a maintainer. Totals: 130 merged in 31 projects, 35 open
 
 ### October 2026
 - 29 Oct: recounted every listed developer's PRs from the git history of all 34 projects. Newly merged: Peter kernel-node #108, #107, #32; Vaan bdk-cli #341, #317, #315 (and #208 from Sep 2025, marked *); Arowolo bdk-ffi #1119 and coin-select #71 (moved from open); Gradale rust-bitcoin #6384, #6382, hex-conservative #250, corepc #614, Mastering Taproot #12; Alex Xie OpenTollGate #106. Added Stonepillar (developer fellow) with 11 merged PRs, 10 of them from before he joined (marked *). Removed bdk #2261 from open (closed). New open PRs added. Totals: 120 merged in 30 projects, 24 open
